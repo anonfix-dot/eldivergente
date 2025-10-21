@@ -34,7 +34,6 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <img src={logo} alt="Agenda33 Logo" className="h-10 w-10 animate-glow-pulse" />
             <span className="text-2xl font-heading font-bold glow-blue">
               AGENDA<span className="text-secondary glow-violet">33</span>
             </span>
