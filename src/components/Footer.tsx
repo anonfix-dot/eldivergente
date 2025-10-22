@@ -72,7 +72,7 @@ export const Footer = () => {
                 <Youtube size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/elantisistema.ok/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-secondary transition-colors"
