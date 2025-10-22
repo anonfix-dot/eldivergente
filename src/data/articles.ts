@@ -4,6 +4,9 @@ import economyImg from "@/assets/article-economy.jpg";
 import imperioFronteraImg from "@/assets/article-imperio-frontera.jpg";
 import latinoamericaEstrategiaImg from "@/assets/article-latinoamerica-estrategia.jpg";
 import gazaCrisisImg from "@/assets/article-gaza-crisis.jpg";
+import eleccionesArgentina2025Img from "@/assets/article-elecciones-argentina-2025.jpg";
+import baElectoralImg from "@/assets/article-ba-electoral.jpg";
+import mapaPoliticoArgentinaImg from "@/assets/article-mapa-politico-argentina.jpg";
 
 export interface Article {
   id: string;
@@ -17,6 +20,215 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: "elecciones-argentina-2025",
+    title: "Elecciones de Medio Término en Argentina 2025: poder, fracturas y futuro político",
+    excerpt: "Un análisis profundo de los comicios de medio término en Argentina 2025: Milei, la oposición fragmentada, las terceras fuerzas y el futuro del sistema político argentino.",
+    content: `
+## INTRODUCCIÓN: ARGENTINA EN LA ENCRUCIJADA
+
+Argentina llega a las elecciones de medio término de 2025 en un contexto de alta volatilidad política, económica y social. La inflación continúa siendo uno de los principales flagelos que afectan a la población, mientras que la fragmentación del sistema partidario alcanza niveles históricos. Las expectativas ciudadanas oscilan entre la esperanza de cambio y el escepticismo frente a una clase política que parece incapaz de acordar un rumbo de largo plazo.
+
+<div class="my-8">
+  <img src="${baElectoralImg}" alt="Escena electoral en Buenos Aires con carteles y urnas" class="w-full rounded-lg shadow-lg" />
+</div>
+
+Estos comicios no son simplemente una renovación parcial del Congreso: son un referéndum sobre la gestión del gobierno de Javier Milei, una prueba de fuego para la oposición tradicional y una ventana de oportunidad para nuevas fuerzas políticas que buscan capitalizar el descontento generalizado. El resultado de octubre definirá no solo la composición legislativa, sino también la viabilidad de cualquier proyecto político a futuro.
+
+### El contexto económico y social
+
+La economía argentina atraviesa uno de sus momentos más críticos. La inflación interanual supera el 200%, el poder adquisitivo de los salarios se ha deteriorado dramáticamente y la pobreza afecta a más del 40% de la población. Las medidas de ajuste implementadas por el gobierno libertario han generado resistencia en amplios sectores sociales, sindicales y políticos.
+
+A esto se suma una crisis de representación política sin precedentes. Los ciudadanos argentinos expresan cada vez mayor desconfianza hacia las instituciones democráticas, los partidos tradicionales y los líderes políticos en general. Este clima de fragmentación y desencanto es el terreno fértil donde se disputa la batalla electoral de 2025.
+
+## JAVIER MILEI Y LA LIBERTAD AVANZA: ¿CONSOLIDACIÓN O RETROCESO?
+
+Javier Milei llegó al poder en 2023 con un discurso rupturista, antipolítica y promesas de transformación radical del Estado argentino. Su primer año y medio de gestión ha estado marcado por medidas de shock económico, recortes presupuestarios drásticos y enfrentamientos constantes con el Congreso, los sindicatos y gran parte de la dirigencia política tradicional.
+
+<div class="my-8 aspect-video">
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/doWz7vA4BkM" title="Análisis gestión Milei" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Estrategia electoral de La Libertad Avanza
+
+El oficialismo busca capitalizar su narrativa de "transformación" y presentarse como la única fuerza capaz de romper con el sistema político tradicional. Sin embargo, enfrenta el desafío de mostrar resultados concretos en la economía y el bienestar social. La apuesta de Milei es polarizar: él representa el cambio, y la oposición representa "la casta" que arruinó al país.
+
+Su principal problema es que las medidas de ajuste han generado un alto costo social, lo que ha erosionado parte de su apoyo inicial. Las encuestas muestran una imagen presidencial en descenso, aunque todavía mantiene un núcleo duro de votantes que lo respaldan incondicionalmente.
+
+### Desafíos del oficialismo
+
+- Falta de estructura partidaria consolidada a nivel nacional.
+- Dependencia excesiva de la figura de Milei como líder carismático.
+- Tensiones internas entre sectores libertarios puros y pragmáticos.
+- Dificultad para construir consensos legislativos sin mayoría propia.
+
+<div class="my-6 p-4 bg-blue-900/30 border-l-4 border-blue-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://www.lanacion.com.ar" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline">La Nación - Cobertura Electoral Argentina 2025</a>
+</div>
+
+## JUNTOS POR EL CAMBIO: FRACTURAS Y RECONFIGURACIONES
+
+Juntos por el Cambio, la principal coalición opositora tradicional, llega a estas elecciones profundamente dividida. Las tensiones entre el radicalismo, el PRO y la Coalición Cívica se han agudizado tras la derrota electoral de 2023. Patricia Bullrich se sumó al gobierno de Milei, generando una ruptura irreparable con el resto de la coalición.
+
+### El dilema de Mauricio Macri y el PRO
+
+Mauricio Macri se encuentra ante una encrucijada estratégica: ¿aliarse con Milei y perder identidad propia, u oponerse y arriesgarse a la irrelevancia política? El PRO ha intentado mantener una posición ambigua, apoyando algunas medidas del gobierno pero manteniendo distancia crítica. Esta estrategia, sin embargo, no ha convencido ni a los votantes libertarios ni a los moderados.
+
+### La UCR y la búsqueda de identidad
+
+La Unión Cívica Radical, con figuras como Martín Lousteau y Facundo Manes, intenta reconstruir un espacio de centro democrático, diferenciándose tanto del oficialismo como del kirchnerismo. Sin embargo, enfrenta el desafío de demostrar que tiene propuestas concretas y no solo una postura de "tercera vía" testimonial.
+
+<div class="my-8 aspect-video">
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/Sy097eqPYWw" title="Debate Juntos por el Cambio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Escenarios para JxC
+
+1. **Reconfiguración total**: Ruptura definitiva y formación de nuevas alianzas.
+2. **Supervivencia fragmentada**: Mantenimiento de la coalición pero con candidaturas diferenciadas por distrito.
+3. **Alianza táctica con Milei**: Subordinación al proyecto libertario a cambio de espacios de poder.
+
+<div class="my-6 p-4 bg-blue-900/30 border-l-4 border-blue-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://www.clarin.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline">Clarín - Análisis Político Nacional</a>
+</div>
+
+## UNIÓN POR LA PATRIA: EL PERONISMO EN BUSCA DE RENOVACIÓN
+
+El peronismo, agrupado bajo el sello Unión por la Patria, enfrenta su propia crisis existencial. La derrota de 2023 expuso las profundas divisiones internas entre kirchneristas duros, peronistas tradicionales y sectores más moderados. Figuras como Sergio Massa, Axel Kicillof y Máximo Kirchner representan visiones diferentes sobre el futuro del movimiento.
+
+### La estrategia de Axel Kicillof
+
+El gobernador de la Provincia de Buenos Aires se ha posicionado como el principal referente opositor al gobierno de Milei. Su estrategia consiste en presentarse como defensor de los sectores populares afectados por el ajuste, mientras intenta construir un perfil más moderado y dialoguista que el kirchnerismo tradicional.
+
+Kicillof busca capitalizar el descontento social sin caer en la confrontación estéril. Su objetivo es convertirse en el líder natural del peronismo para las elecciones presidenciales de 2027, pero primero debe demostrar capacidad de convocatoria en estas legislativas.
+
+### El rol de Cristina Fernández de Kirchner
+
+Cristina Kirchner mantiene una influencia decisiva sobre amplios sectores del peronismo, especialmente en la provincia de Buenos Aires y en el conurbano bonaerense. Sin embargo, su figura genera rechazo en sectores medios y es vista por muchos como un obstáculo para la renovación del movimiento.
+
+El kirchnerismo duro apuesta por una estrategia de resistencia frontal al gobierno de Milei, denunciando el "ajuste neoliberal" y defendiendo las conquistas sociales del período 2003-2015. Sin embargo, esta narrativa no parece ser suficiente para reconectar con un electorado que castigó duramente al peronismo en 2023.
+
+<div class="my-6 p-4 bg-blue-900/30 border-l-4 border-blue-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://www.pagina12.com.ar" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline">Página 12 - Perspectiva Política Nacional</a>
+</div>
+
+## TERCERAS FUERZAS Y CANDIDATOS PROVINCIALES: EL MAPA SE FRAGMENTA
+
+Uno de los fenómenos más interesantes de estas elecciones es el surgimiento y consolidación de fuerzas políticas provinciales y nuevos movimientos que desafían el esquema tradicional de grieta.
+
+<div class="my-8">
+  <img src="${mapaPoliticoArgentinaImg}" alt="Mapa político de Argentina con regiones destacadas" class="w-full rounded-lg shadow-lg" />
+</div>
+
+### La izquierda y los partidos de trabajadores
+
+El Frente de Izquierda de los Trabajadores (FIT-U) mantiene su presencia en el escenario político, aunque con limitado crecimiento electoral. Su discurso anticapitalista y de denuncia al sistema político encuentra eco en sectores juveniles y sindicales combativos, pero no logra expandirse más allá de su base tradicional.
+
+### Movimientos provinciales y federalismo
+
+En provincias como Córdoba, Santa Fe, Mendoza y algunas del norte argentino, han surgido fuerzas locales que buscan representar intereses regionales frente a la centralización porteña. Estos movimientos critican tanto al gobierno nacional como a la oposición tradicional, proponiendo modelos de desarrollo federal y descentralizado.
+
+### Nuevos libertarios y outsiders
+
+Inspirados en el éxito de Milei, han surgido nuevos candidatos "antisistema" que buscan capitalizar el descontento con los partidos tradicionales. Sin embargo, la mayoría de estos movimientos carece de estructura organizativa sólida y depende excesivamente del carisma de sus líderes.
+
+<div class="my-6 p-4 bg-blue-900/30 border-l-4 border-blue-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://www.politicargentina.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline">Política Argentina - Análisis de Terceras Fuerzas</a>
+</div>
+
+## ESCENARIOS POSIBLES POST-ELECTORALES
+
+El resultado de las elecciones de medio término definirá el tablero político para los próximos dos años y condicionará las estrategias de cara a 2027. Tres escenarios principales se perfilan:
+
+### ESCENARIO 1: CONSOLIDACIÓN DEL OFICIALISMO
+
+Si La Libertad Avanza logra un buen desempeño electoral, Milei tendrá mayor margen para profundizar su agenda de reformas. Esto implicaría:
+
+- Mayor capacidad de negociación en el Congreso.
+- Fortalecimiento de la narrativa del "cambio irreversible".
+- Debilitamiento de la oposición tradicional.
+- Posibilidad de aprobar reformas estructurales más ambiciosas.
+
+Sin embargo, este escenario requiere que el oficialismo demuestre mejoras concretas en los indicadores económicos y sociales.
+
+### ESCENARIO 2: AVANCE OPOSITOR Y FRENO AL GOBIERNO
+
+Si la oposición, en sus diversas vertientes, logra una buena elección, se configuraría un escenario de mayor equilibrio o incluso de bloqueo legislativo. Esto significaría:
+
+- Dificultad para el oficialismo de avanzar con su agenda.
+- Fortalecimiento de Axel Kicillof como líder opositor.
+- Posible recomposición de Juntos por el Cambio.
+- Gobierno obligado a negociar y moderar sus políticas.
+
+Este escenario aumentaría la incertidumbre política y podría derivar en mayor conflictividad social.
+
+### ESCENARIO 3: FRAGMENTACIÓN Y BLOQUEO LEGISLATIVO
+
+El escenario más complejo sería aquel donde ninguna fuerza política logra imponerse claramente. Esto generaría:
+
+- Congreso altamente fragmentado y sin mayorías claras.
+- Dificultad extrema para aprobar cualquier legislación relevante.
+- Incremento de la conflictividad política y social.
+- Riesgo de ingobernabilidad y crisis institucional.
+- Ventana de oportunidad para terceras fuerzas minoritarias que actúen como "bisagra".
+
+Este escenario es el más temido por los analistas, ya que podría profundizar la crisis de representación y alimentar fenómenos antisistema más radicales.
+
+<div class="my-8 p-6 bg-gradient-to-r from-blue-900/40 to-red-900/40 border border-blue-500/50 rounded-lg">
+  <h3 class="text-2xl font-bold mb-4 text-blue-300">DATOS CLAVE DE LAS ENCUESTAS</h3>
+  <ul class="space-y-2 text-lg">
+    <li>📊 Intención de voto oficialismo: 28-33%</li>
+    <li>📊 Intención de voto peronismo: 25-30%</li>
+    <li>📊 Intención de voto JxC: 18-23%</li>
+    <li>📊 Terceras fuerzas: 15-20%</li>
+    <li>📊 Indecisos: 18-25%</li>
+  </ul>
+  <p class="mt-4 text-sm text-gray-400">*Promedio de encuestas abril-mayo 2025</p>
+</div>
+
+## CONCLUSIÓN: EL FUTURO DE LA DEMOCRACIA ARGENTINA
+
+Las elecciones de medio término de 2025 representan mucho más que una simple renovación parlamentaria. Son una prueba de estrés para el sistema democrático argentino, que enfrenta desafíos estructurales profundos: crisis económica crónica, fragmentación política, desconfianza ciudadana y polarización extrema.
+
+### La crisis de representación
+
+Argentina atraviesa una crisis de representación política sin precedentes en su historia democrática reciente. Los partidos tradicionales han perdido capacidad de convocatoria, los liderazgos personales se han impuesto sobre las instituciones, y la ciudadanía expresa creciente escepticismo frente a la política en general.
+
+Este fenómeno no es exclusivo de Argentina, sino que se enmarca en una tendencia global de cuestionamiento a las democracias liberales representativas. Sin embargo, en el caso argentino se combina con una economía debilitada y una historia de inestabilidad política que agravan el problema.
+
+### La necesidad de acuerdos básicos
+
+Más allá de quién gane estas elecciones, Argentina necesita urgentemente construir consensos básicos sobre su modelo de desarrollo económico, su sistema político y su contrato social. Sin acuerdos mínimos entre las principales fuerzas políticas, el país corre el riesgo de continuar en un ciclo de ajustes y crisis que profundice la fragmentación social.
+
+### El rol de la ciudadanía
+
+Los ciudadanos argentinos tienen en sus manos la posibilidad de definir el rumbo político de los próximos años. La participación electoral, el debate informado y la exigencia de propuestas concretas son herramientas fundamentales para fortalecer la democracia.
+
+<div class="my-12 text-center">
+  <p class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-red-400 bg-clip-text text-transparent leading-relaxed py-4">
+    "El poder en Argentina ya no se disputa solo en las urnas, sino en la conciencia colectiva."
+  </p>
+</div>
+
+Las elecciones de medio término de 2025 no resolverán todos los problemas de Argentina, pero sí marcarán el inicio de una nueva etapa política. El desafío está en que esa etapa sea constructiva y no profundice la crisis. El resultado está en manos de los ciudadanos y de la capacidad de la dirigencia política de estar a la altura de las circunstancias históricas que atraviesa el país.
+
+### Mirando hacia 2027
+
+Estas legislativas son también el primer escalón hacia las elecciones presidenciales de 2027. Cada fuerza política está jugando no solo la batalla de octubre 2025, sino también posicionándose para la gran contienda que definirá el futuro de Argentina en la próxima década.
+
+¿Será Milei capaz de consolidar un proyecto político de largo plazo? ¿Podrá el peronismo reinventarse y recuperar la confianza ciudadana? ¿Logrará Juntos por el Cambio reconstruirse como alternativa viable? ¿Surgirán nuevas fuerzas capaces de romper el esquema tradicional?
+
+Todas estas preguntas comenzarán a responderse el día de las elecciones. Argentina está ante una encrucijada histórica, y las decisiones que se tomen en los próximos meses serán determinantes para las generaciones futuras.
+    `,
+    image: eleccionesArgentina2025Img,
+    category: "Política Nacional",
+    date: "15 de Mayo, 2025",
+    author: "Agenda33"
+  },
   {
     id: "imperio-frontera-dolor",
     title: "El Imperio y la Frontera del Dolor: de la Doctrina Monroe al silencio sobre Gaza",
@@ -173,6 +385,7 @@ El dinero no es neutral. Es un instrumento de poder, y quienes controlan su crea
 
 export const categories = [
   "Todos",
+  "Política Nacional",
   "Geopolítica",
   "Sociedades Secretas",
   "Economía Oculta",
