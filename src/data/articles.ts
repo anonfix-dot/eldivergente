@@ -45,8 +45,12 @@ A esto se suma una crisis de representación política sin precedentes. Los ciud
 
 Javier Milei llegó al poder en 2023 con un discurso rupturista, antipolítica y promesas de transformación radical del Estado argentino. Su primer año y medio de gestión ha estado marcado por medidas de shock económico, recortes presupuestarios drásticos y enfrentamientos constantes con el Congreso, los sindicatos y gran parte de la dirigencia política tradicional.
 
+### Entendiendo el sistema electoral argentino
+
+Cadena 3 Argentina presenta un análisis detallado sobre el funcionamiento del sistema electoral en estas elecciones de medio término. El video explica qué cargos se renuevan, cómo se distribuyen las bancas en el Congreso según el sistema D'Hondt, y cuál es el peso específico de cada distrito electoral. Un recurso fundamental para comprender la mecánica detrás de la competencia política y cómo los votos se traducen en representación parlamentaria.
+
 <div class="my-8 aspect-video">
-  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/doWz7vA4BkM" title="Análisis gestión Milei" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/0jKwjEBuSzk" title="Elecciones 2025: Qué se vota y cómo se distribuyen las bancas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Estrategia electoral de La Libertad Avanza
@@ -79,8 +83,12 @@ Mauricio Macri se encuentra ante una encrucijada estratégica: ¿aliarse con Mil
 
 La Unión Cívica Radical, con figuras como Martín Lousteau y Facundo Manes, intenta reconstruir un espacio de centro democrático, diferenciándose tanto del oficialismo como del kirchnerismo. Sin embargo, enfrenta el desafío de demostrar que tiene propuestas concretas y no solo una postura de "tercera vía" testimonial.
 
+### Guía práctica para el día de votación
+
+C5N elaboró una guía completa paso a paso sobre el proceso de votación para las elecciones de 2025. El video responde las preguntas más frecuentes de los ciudadanos: documentación necesaria, horarios de los centros de votación, protocolo sanitario, qué hacer si hay inconvenientes con el padrón, y cómo se desarrolla el proceso desde que el votante ingresa hasta que deposita su boleta. Una herramienta práctica e indispensable para garantizar una participación electoral informada y sin contratiempos.
+
 <div class="my-8 aspect-video">
-  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/Sy097eqPYWw" title="Debate Juntos por el Cambio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="w-full h-full rounded-lg" src="https://www.youtube.com/embed/ERT2GLrmpuo" title="Elecciones 2025: Paso a paso y preguntas frecuentes para votar el domingo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Escenarios para JxC
