@@ -27,7 +27,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center z-10 animate-fade-in">
           <div className="max-w-4xl mx-auto">
             <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6 glow-blue">
-              AGENDA<span className="text-secondary glow-violet">33</span>
+              EL <span className="text-secondary glow-violet">DIVERGENTE</span>
             </h1>
             
             <p className="text-xl md:text-3xl mb-4 text-foreground/90 font-heading">

@@ -27,14 +27,14 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative">
               <div className="rounded-lg overflow-hidden border border-primary/30 glow-box-blue">
-                <img src={authorPhoto} alt="Autor de Agenda33" className="w-full h-auto" />
+                <img src={authorPhoto} alt="Autor de El Divergente" className="w-full h-auto" />
               </div>
             </div>
 
             <div className="space-y-6">
               <h2 className="font-heading text-3xl font-bold glow-blue">El Observador Independiente</h2>
               <p className="text-foreground/90 leading-relaxed">
-                Detrás de Agenda33 hay un compromiso inquebrantable con la verdad, más allá de las narrativas
+                Detrás de El Divergente hay un compromiso inquebrantable con la verdad, más allá de las narrativas
                 oficiales. No soy periodista corporativo ni vocero institucional. Soy un investigador independiente
                 que ha dedicado años a estudiar las estructuras de poder que operan en las sombras.
               </p>
@@ -107,7 +107,7 @@ const About = () => {
               aceptes ninguna narrativa —incluida la mía— sin cuestionarla.
             </p>
             <p className="text-lg">
-              Bienvenido a Agenda33. Donde las teorías se transforman en conocimiento.
+              Bienvenido a El Divergente. Donde las teorías se transforman en conocimiento.
             </p>
           </div>
         </div>

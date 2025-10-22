@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo-agenda33.png";
+import logo from "@/assets/logo-el-divergente.jpg";
 
 const navLinks = [
   { name: "Inicio", path: "/" },
@@ -34,8 +34,9 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
+            <img src={logo} alt="El Divergente" className="h-10 w-10 object-contain" />
             <span className="text-2xl font-heading font-bold glow-blue">
-              AGENDA<span className="text-secondary glow-violet">33</span>
+              EL <span className="text-secondary glow-violet">DIVERGENTE</span>
             </span>
           </Link>
 

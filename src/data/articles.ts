@@ -235,7 +235,7 @@ Todas estas preguntas comenzarán a responderse el día de las elecciones. Argen
     image: eleccionesArgentina2025Img,
     category: "Política Nacional",
     date: "15 de Mayo, 2025",
-    author: "Agenda33"
+    author: "El Divergente"
   },
   {
     id: "imperio-frontera-dolor",
@@ -293,7 +293,7 @@ EE.UU. en Latinoamérica busca reconquistar un rol de liderazgo que considera pe
     image: imperioFronteraImg,
     category: "Geopolítica",
     date: "20 de Abril, 2025",
-    author: "Agenda33"
+    author: "El Divergente"
   },
   {
     id: "geopolitica-nueva-era",
@@ -323,7 +323,7 @@ El verdadero poder geopolítico no reside en los parlamentos ni en los palacios 
     image: geopoliticsImg,
     category: "Geopolítica",
     date: "15 de Abril, 2025",
-    author: "Agenda33"
+    author: "El Divergente"
   },
   {
     id: "sociedades-secretas-poder",
@@ -353,7 +353,7 @@ Estas organizaciones no son simplemente clubes sociales de élite. Son espacios 
     image: societiesImg,
     category: "Sociedades Secretas",
     date: "8 de Abril, 2025",
-    author: "Agenda33"
+    author: "El Divergente"
   },
   {
     id: "economia-oculta-control",
@@ -387,7 +387,7 @@ El dinero no es neutral. Es un instrumento de poder, y quienes controlan su crea
     image: economyImg,
     category: "Economía Oculta",
     date: "1 de Abril, 2025",
-    author: "Agenda33"
+    author: "El Divergente"
   }
 ];
 

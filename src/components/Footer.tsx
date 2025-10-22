@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Twitter, Youtube, Instagram, Mail } from "lucide-react";
-import logo from "@/assets/logo-agenda33.png";
+import logo from "@/assets/logo-el-divergente.jpg";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,9 +12,9 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="Agenda33" className="h-10 w-10" />
+              <img src={logo} alt="El Divergente" className="h-10 w-10 object-contain" />
               <span className="text-xl font-heading font-bold glow-blue">
-                AGENDA<span className="text-secondary glow-violet">33</span>
+                EL <span className="text-secondary glow-violet">DIVERGENTE</span>
               </span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">
@@ -81,7 +81,7 @@ export const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="mailto:info@agenda33.com"
+                href="mailto:info@eldivergente.com"
                 className="text-muted-foreground hover:text-secondary transition-colors"
                 aria-label="Email"
               >
@@ -92,7 +92,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-primary/10 mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Agenda33. Todos los derechos reservados.</p>
+          <p>© {currentYear} El Divergente. Todos los derechos reservados.</p>
           <p className="mt-2">
             <Link to="/privacy" className="hover:text-primary transition-colors">
               Política de Privacidad
