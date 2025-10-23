@@ -33,10 +33,6 @@ export const articles: Article[] = [
     content: `
 ## EL PODER: UNA CONSTRUCCIÓN INVISIBLE QUE NOS DETERMINA
 
-<div class="my-8">
-  <img src="${quienTienePoderHeroImg}" alt="Silueta de persona frente a ciudad representando poder individual vs sistema global" class="w-full rounded-lg shadow-lg" />
-</div>
-
 Durante décadas, la humanidad ha sido condicionada a creer que el poder reside en instituciones lejanas, en gobiernos, corporaciones multinacionales y élites financieras que operan desde las sombras. Pero la pregunta fundamental que debemos hacernos es: **¿cómo llegamos a ceder tanto control sobre nuestras propias vidas?**
 
 El poder no se arrebata de la noche a la mañana. Se cede gradualmente, mediante la manipulación cultural, el control mediático, la dependencia económica y la fragmentación social. Vivimos en una era donde las decisiones más importantes sobre nuestra existencia —desde qué comemos hasta cómo pensamos— son moldeadas por fuerzas que permanecen invisibles para la mayoría.
