@@ -130,10 +130,6 @@ El primer paso para recuperar el poder es reconocer que lo hemos perdido. Esto i
 
 La conciencia no es suficiente, pero es absolutamente necesaria. Sin ella, cualquier acción transformadora será superficial, fácilmente cooptada por el sistema. La educación popular, el debate crítico, la lectura de autores disruptivos y el cuestionamiento constante de las narrativas oficiales son herramientas fundamentales.
 
-<div class="my-8">
-  <img src="${concienciaSocialImg}" alt="Persona rompiendo cadenas con luz roja emanando del interior" class="w-full rounded-lg shadow-lg" />
-</div>
-
 ### La organización comunitaria autónoma
 
 El poder no se recupera individualmente, sino colectivamente. Esto significa reconstruir redes de solidaridad, cooperación y apoyo mutuo que operen al margen —o en contradicción directa— con las instituciones del sistema.
