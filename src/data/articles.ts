@@ -7,6 +7,12 @@ import gazaCrisisImg from "@/assets/article-gaza-crisis.jpg";
 import eleccionesArgentina2025Img from "@/assets/article-elecciones-argentina-2025.jpg";
 import baElectoralImg from "@/assets/article-ba-electoral.jpg";
 import mapaPoliticoArgentinaImg from "@/assets/article-mapa-politico-argentina.jpg";
+import quienTienePoderHeroImg from "@/assets/article-quien-tiene-poder-hero.jpg";
+import poderCiudadanoImg from "@/assets/article-poder-ciudadano.jpg";
+import controlMediaticoImg from "@/assets/article-control-mediatico.jpg";
+import redesComunitariasImg from "@/assets/article-redes-comunitarias.jpg";
+import concienciaSocialImg from "@/assets/article-conciencia-social.jpg";
+import losDeAbajoImg from "@/assets/article-los-de-abajo.jpg";
 
 export interface Article {
   id: string;
@@ -20,6 +26,285 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: "quien-tiene-poder-como-recuperarlo",
+    title: "¿Quién tiene el poder y cómo recuperarlo?",
+    excerpt: "Un análisis disruptivo sobre las estructuras de poder global y cómo el pueblo puede reapropiarse del control individual y colectivo. Incluye el análisis del proyecto 'Los de Abajo' como respuesta concreta a la concentración de poder.",
+    content: `
+## EL PODER: UNA CONSTRUCCIÓN INVISIBLE QUE NOS DETERMINA
+
+<div class="my-8">
+  <img src="${quienTienePoderHeroImg}" alt="Silueta de persona frente a ciudad representando poder individual vs sistema global" class="w-full rounded-lg shadow-lg" />
+</div>
+
+Durante décadas, la humanidad ha sido condicionada a creer que el poder reside en instituciones lejanas, en gobiernos, corporaciones multinacionales y élites financieras que operan desde las sombras. Pero la pregunta fundamental que debemos hacernos es: **¿cómo llegamos a ceder tanto control sobre nuestras propias vidas?**
+
+El poder no se arrebata de la noche a la mañana. Se cede gradualmente, mediante la manipulación cultural, el control mediático, la dependencia económica y la fragmentación social. Vivimos en una era donde las decisiones más importantes sobre nuestra existencia —desde qué comemos hasta cómo pensamos— son moldeadas por fuerzas que permanecen invisibles para la mayoría.
+
+Este artículo no es solo una denuncia de las estructuras de dominación contemporáneas. Es una invitación a la acción consciente, a la recuperación del poder individual y colectivo que hemos perdido. Es un llamado a despertar del letargo sistémico que nos ha convertido en espectadores pasivos de nuestra propia historia.
+
+### La arquitectura del control global
+
+El poder contemporáneo opera a través de una red compleja de instituciones supranacionales, corporaciones transnacionales, sistemas financieros globalizados y aparatos mediáticos concentrados. Esta arquitectura del control no es producto de una conspiración única, sino de la evolución natural del capitalismo avanzado hacia formas cada vez más sofisticadas de dominación.
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://www.jacobinmag.com/topics/power" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Jacobin Magazine - Análisis sobre estructuras de poder global</a>
+</div>
+
+El Foro Económico Mundial, el Banco Mundial, el Fondo Monetario Internacional, las grandes tecnológicas (Google, Amazon, Meta, Microsoft), los fondos de inversión como BlackRock y Vanguard, y los conglomerados mediáticos globales son solo algunos de los actores visibles de esta red de poder. Pero lo más inquietante no es su existencia, sino su capacidad de coordinación y su influencia directa sobre los Estados nacionales, que supuestamente deberían representar los intereses de sus ciudadanos.
+
+## LA CESIÓN GRADUAL: CÓMO EL PUEBLO PERDIÓ EL CONTROL
+
+<div class="my-8">
+  <img src="${poderCiudadanoImg}" alt="Ciudadanos levantando el puño en resistencia frente a torres corporativas" class="w-full rounded-lg shadow-lg" />
+</div>
+
+La pérdida del poder popular no fue un evento único, sino un proceso histórico de décadas que se aceleró brutalmente a partir de la caída del Muro de Berlín y el triunfo del modelo neoliberal como único horizonte posible.
+
+### La privatización de lo común
+
+Durante los años 80 y 90, bajo el liderazgo ideológico de Margaret Thatcher y Ronald Reagan, el mundo presenció la mayor transferencia de riqueza y poder de lo público a lo privado en la historia moderna. Los servicios básicos —salud, educación, vivienda, transporte, comunicaciones— fueron progresivamente mercantilizados.
+
+Lo que antes era un derecho garantizado por el Estado se convirtió en una mercancía accesible solo para quienes pudieran pagarla. Esta privatización no solo afectó los servicios, sino también el concepto mismo de ciudadanía. Ya no somos ciudadanos con derechos inalienables, sino consumidores con "opciones" en el mercado.
+
+### La captura de la democracia
+
+Paralelamente, los sistemas democráticos fueron siendo capturados por intereses corporativos. El financiamiento de campañas políticas, el lobby profesional, las puertas giratorias entre el sector público y privado, y la concentración de la propiedad mediática convirtieron a la democracia en una fachada procedimental sin contenido sustancial.
+
+Los partidos políticos tradicionales de izquierda y derecha convergieron en una agenda común: desregulación financiera, apertura comercial indiscriminada, flexibilización laboral y austeridad fiscal. Las diferencias se redujeron a aspectos culturales secundarios mientras el modelo económico permanecía intocable.
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://www.opendemocracy.net/en/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Open Democracy - Análisis crítico de las democracias contemporáneas</a>
+</div>
+
+### La fragmentación social deliberada
+
+Una de las estrategias más efectivas del poder ha sido la fragmentación de la sociedad en identidades cada vez más pequeñas y enfrentadas entre sí. La política de la identidad, aunque legítima en sus orígenes, ha sido instrumentalizada para dividir a los trabajadores, a los sectores populares y a las clases medias empobrecidas.
+
+Mientras discutimos sobre diferencias culturales, de género, étnicas o generacionales —todas ellas importantes—, la concentración de la riqueza y el poder alcanza niveles sin precedentes. La fragmentación nos debilita, nos aísla y nos convierte en presas fáciles de la manipulación sistémica.
+
+## EL CONTROL MEDIÁTICO: LA FÁBRICA DEL CONSENSO
+
+<div class="my-8">
+  <img src="${controlMediaticoImg}" alt="Pantallas gigantes y cámaras de vigilancia en ambiente urbano distópico" class="w-full rounded-lg shadow-lg" />
+</div>
+
+Noam Chomsky y Edward Herman llamaron a este fenómeno "la manufactura del consentimiento". Los medios de comunicación masiva, concentrados en pocas manos corporativas, no informan: **programan**.
+
+### La concentración mediática global
+
+Seis corporaciones controlan aproximadamente el 90% de los medios de comunicación en Estados Unidos: Comcast (NBC, Universal), Disney (ABC, ESPN), AT&T (CNN, HBO), Paramount Global (CBS, MTV), Sony y News Corp (Fox, Wall Street Journal). Esta concentración es similar en Europa, América Latina y Asia.
+
+Estos conglomerados no solo poseen canales de televisión y periódicos, sino también estudios de cine, productoras de contenido digital, plataformas de streaming y redes sociales. Controlan no solo las noticias, sino también el entretenimiento, la cultura popular y, cada vez más, el discurso público en las redes sociales.
+
+### La ingeniería del consenso
+
+Los medios corporativos no operan mediante censura directa, sino mediante la selección de temas, el encuadre de las narrativas y la exclusión de voces disidentes. Se nos dice qué es importante y qué no, qué es debate legítimo y qué es extremismo, quién es un líder responsable y quién es un radical peligroso.
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold">Lectura recomendada:</p>
+  <a href="https://www.blackagendareport.com/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Black Agenda Report - Periodismo independiente y análisis crítico</a>
+</div>
+
+Este control es especialmente evidente en temas relacionados con política exterior, economía y movimientos sociales. Cuando un país no alineado con Occidente enfrenta protestas, son "manifestaciones por la libertad". Cuando las protestas ocurren en países aliados, son "disturbios" o "desestabilización". La realidad se construye mediante el lenguaje y la repetición.
+
+### Las redes sociales: libertad o nueva jaula
+
+La llegada de las redes sociales generó esperanzas de democratización de la información. Sin embargo, rápidamente se convirtieron en herramientas de vigilancia masiva, manipulación algorítmica y censura selectiva. Facebook, Twitter (ahora X), Google y sus subsidiarias recopilan cantidades masivas de datos personales que utilizan para perfilar, predecir y modificar nuestro comportamiento.
+
+Los algoritmos nos encierran en burbujas de confirmación, radicalizando nuestras posiciones y aislándonos de perspectivas divergentes. El debate público se fragmenta en millones de conversaciones aisladas donde cada grupo cree tener la verdad absoluta. Esta polarización artificial sirve perfectamente a los intereses del poder: una sociedad fragmentada es una sociedad controlable.
+
+## LA RESISTENCIA POSIBLE: RECUPERANDO EL PODER DESDE ABAJO
+
+<div class="my-8">
+  <img src="${redesComunitariasImg}" alt="Personas formando redes comunitarias con conexiones de luz" class="w-full rounded-lg shadow-lg" />
+</div>
+
+Frente a esta realidad abrumadora, surge la pregunta central: **¿es posible recuperar el poder?** La respuesta es afirmativa, pero requiere un cambio radical en nuestra forma de pensar y organizarnos.
+
+### La conciencia como primer acto de resistencia
+
+El primer paso para recuperar el poder es reconocer que lo hemos perdido. Esto implica romper con la ilusión de que vivimos en democracias plenas, de que somos libres, de que nuestras elecciones son genuinas. Requiere enfrentar la incomodidad de reconocer que hemos sido cómplices de nuestra propia dominación.
+
+La conciencia no es suficiente, pero es absolutamente necesaria. Sin ella, cualquier acción transformadora será superficial, fácilmente cooptada por el sistema. La educación popular, el debate crítico, la lectura de autores disruptivos y el cuestionamiento constante de las narrativas oficiales son herramientas fundamentales.
+
+<div class="my-8">
+  <img src="${concienciaSocialImg}" alt="Persona rompiendo cadenas con luz roja emanando del interior" class="w-full rounded-lg shadow-lg" />
+</div>
+
+### La organización comunitaria autónoma
+
+El poder no se recupera individualmente, sino colectivamente. Esto significa reconstruir redes de solidaridad, cooperación y apoyo mutuo que operen al margen —o en contradicción directa— con las instituciones del sistema.
+
+Cooperativas de consumo y producción, bancos de tiempo, monedas alternativas, redes de trueque, asambleas barriales, medios de comunicación comunitarios, huertos urbanos colectivos, espacios culturales autogestionados: todas estas iniciativas son formas concretas de recuperar autonomía y poder.
+
+No se trata de crear "proyectos alternativos" testimoniales, sino de construir una infraestructura material y simbólica que nos permita vivir con mayor independencia del sistema capitalista. Cuanto más autosuficientes seamos, menos vulnerables seremos a las crisis, los ajustes y las manipulaciones del poder.
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://cooperativa.cat/en/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Cooperativa Integral Catalana - Ejemplo de economía autónoma</a>
+</div>
+
+### La desobediencia estratégica
+
+Recuperar el poder también implica desobedecer. No toda ley es justa, no toda autoridad es legítima, no toda norma debe ser acatada. La desobediencia civil tiene una larga y honorable historia: desde el movimiento por los derechos civiles en Estados Unidos hasta las luchas anticoloniales, desde el movimiento obrero hasta las resistencias ecologistas contemporáneas.
+
+La desobediencia estratégica no es el caos o la violencia indiscriminada, sino la negativa organizada y consciente a colaborar con estructuras de opresión. Boicots, huelgas, ocupaciones, bloqueos, sabotajes simbólicos: todas son formas legítimas de ejercer poder popular cuando los canales institucionales están bloqueados.
+
+## LOS DE ABAJO: UN PROYECTO DE AUTOORGANIZACIÓN POPULAR
+
+<div class="my-8">
+  <img src="${losDeAbajoImg}" alt="Estética revolucionaria del proyecto Los de Abajo con trabajadores unidos" class="w-full rounded-lg shadow-lg" />
+</div>
+
+En este contexto de crisis sistémica y búsqueda de alternativas, surge el proyecto **"Los de Abajo"** (https://losdeabajo.lovable.app), una propuesta concreta de resistencia y construcción de poder popular.
+
+### Filosofía y propósito
+
+"Los de Abajo" parte de una premisa simple pero radical: el poder debe regresar a quienes históricamente lo han creado con su trabajo, su creatividad y su sacrificio, pero de quienes ha sido expropiado sistemáticamente. El nombre mismo es un homenaje a la novela de Mariano Azuela sobre la Revolución Mexicana, pero también una declaración de principios: son los de abajo —trabajadores, campesinos, desempleados, precarizados— quienes deben ser protagonistas de su propia liberación.
+
+El proyecto no busca reformar el sistema ni negociar migajas de poder con las élites. Su objetivo es construir espacios autónomos de organización, producción y reproducción de la vida que funcionen según lógicas radicalmente diferentes a las del capitalismo: solidaridad en lugar de competencia, cooperación en lugar de explotación, democracia directa en lugar de delegación de poder.
+
+### Estética y comunicación
+
+La estética de "Los de Abajo" recupera elementos del arte de protesta histórico: los colores rojo y negro del anarcosindicalismo, la tipografía contundente de los carteles revolucionarios, las imágenes de puños alzados y multitudes organizadas. No se trata de nostalgia, sino de reconectar con tradiciones de lucha que el sistema ha intentado borrar o neutralizar.
+
+Esta estética visual es también una estrategia comunicacional. En un mundo saturado de mensajes corporativos pulidos y asépticos, "Los de Abajo" propone una comunicación directa, honesta y confrontativa. No busca seducir a las clases medias ilustradas, sino interpelar a quienes experimentan directamente la explotación y la exclusión.
+
+### Estructura y funcionamiento
+
+"Los de Abajo" se organiza horizontalmente, sin jerarquías formales ni líderes permanentes. Las decisiones se toman en asambleas donde cada participante tiene voz y voto. Los roles de coordinación rotan periódicamente para evitar la concentración de poder y la emergencia de burocracias.
+
+El proyecto opera en múltiples frentes:
+
+- **Económico**: Cooperativas de producción y consumo, redes de intercambio solidario, fondos comunes de resistencia.
+- **Cultural**: Espacios de debate, talleres de formación política, producción de contenidos críticos, eventos artísticos autogestionados.
+- **Comunicacional**: Medios alternativos, redes sociales descentralizadas, difusión de información que los medios corporativos censuran.
+- **Territorial**: Organización barrial, redes de apoyo mutuo, defensa de espacios comunitarios frente a gentrificación y especulación.
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold">Enlace al proyecto:</p>
+  <a href="https://losdeabajo.lovable.app" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Los de Abajo - Organización Popular Autónoma</a>
+</div>
+
+### Desafíos y perspectivas
+
+"Los de Abajo" enfrenta los mismos desafíos que toda organización popular autónoma: la represión estatal, la cooptación institucional, las divisiones internas, la escasez de recursos, el desgaste militante. Pero también tiene fortalezas: la claridad de sus principios, la radicalidad de su propuesta, el compromiso de sus integrantes y la conexión con tradiciones históricas de lucha.
+
+El proyecto no pretende ser la única alternativa ni la vanguardia de ningún movimiento. Se concibe como una experiencia más dentro de un ecosistema diverso de resistencias y construcciones alternativas. Su éxito no se medirá por el número de adherentes ni por el reconocimiento mediático, sino por su capacidad de mantener la autonomía, la coherencia y la efectividad en la construcción de poder popular.
+
+## ESTRATEGIAS CONCRETAS PARA LA RECUPERACIÓN DEL PODER
+
+Más allá de los proyectos específicos, existen estrategias generales que cualquier persona o colectivo puede implementar para recuperar grados de autonomía y poder:
+
+### 1. Desconexión estratégica
+
+Reducir la dependencia de las grandes corporaciones tecnológicas, financieras y comerciales. Esto implica:
+
+- Usar software libre y plataformas descentralizadas
+- Bancarizar lo mínimo indispensable, explorar criptomonedas descentralizadas
+- Comprar en comercios locales y cooperativas en lugar de grandes cadenas
+- Producir parte de los propios alimentos cuando sea posible
+- Compartir recursos (herramientas, vehículos, espacios) en lugar de poseerlos individualmente
+
+### 2. Educación crítica permanente
+
+- Leer autores que el sistema margina: marxistas, anarquistas, feministas radicales, pensadores anticoloniales
+- Participar en círculos de estudio, grupos de lectura, talleres de formación política
+- Cuestionar sistemáticamente las narrativas mediáticas dominantes
+- Desarrollar capacidad de análisis estructural de la realidad
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold">Enlace recomendado:</p>
+  <a href="https://theanarchistlibrary.org/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">The Anarchist Library - Textos de teoría política radical</a>
+</div>
+
+### 3. Construcción de redes de solidaridad
+
+- Conocer a los vecinos, crear vínculos comunitarios
+- Participar en organizaciones locales (asambleas, cooperativas, colectivos)
+- Establecer sistemas de apoyo mutuo para crisis personales o colectivas
+- Defender espacios comunes frente a privatización y gentrificación
+
+### 4. Acción directa y desobediencia
+
+- Participar en protestas, manifestaciones, huelgas
+- Apoyar boicots a empresas responsables de abusos sociales o ambientales
+- Ocupar espacios abandonados para uso comunitario
+- Resistir desalojos, desahucios y despojos
+
+### 5. Creación de contrainformación
+
+- Compartir información alternativa en redes sociales
+- Participar en medios comunitarios o crear los propios
+- Documentar abusos de poder y represión
+- Difundir análisis críticos y perspectivas disidentes
+
+## CONCLUSIÓN: EL PODER ESTÁ EN NUESTRAS MANOS (SI LO TOMAMOS)
+
+<div class="my-12 text-center">
+  <p class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-red-400 via-orange-400 to-red-600 bg-clip-text text-transparent leading-relaxed py-4">
+    "El poder no se pide, se construye. No se delega, se ejerce. No se espera, se toma."
+  </p>
+</div>
+
+La pregunta que titula este artículo —¿quién tiene el poder y cómo recuperarlo?— tiene una respuesta paradójica: el poder lo tienen quienes nos han convencido de que no lo tenemos. Y lo recuperaremos cuando dejemos de creer esa mentira.
+
+El sistema de dominación contemporáneo es poderoso, sofisticado y aparentemente omnipresente. Pero tiene una debilidad fundamental: **depende de nuestra obediencia**. Sin trabajadores que produzcan, sin consumidores que compren, sin ciudadanos que voten, sin soldados que repriman, sin periodistas que mientan, el sistema colapsa.
+
+Nuestra tarea no es destruir el poder, sino recuperarlo y ejercerlo colectivamente. No se trata de tomar el Estado (aunque en ciertos contextos pueda ser táctico), sino de construir contrapoderes que lo hagan irrelevante. No se trata de esperar a que líderes salvadores nos liberen, sino de liberarnos a nosotros mismos mediante la organización autónoma.
+
+### El camino es largo y difícil
+
+No hay que engañarse: la recuperación del poder popular no será fácil ni rápida. Requerirá sacrificios personales, conflictos con familiares y amigos aún dormidos, represión estatal, fracasos y decepciones. Pero la alternativa —la resignación pasiva, la colaboración cómplice, la esperanza vacía en reformas imposibles— es mucho peor.
+
+Cada pequeña acción de resistencia, cada cooperativa que se crea, cada lazo de solidaridad que se teje, cada verdad que se difunde, cada espacio que se recupera, es un paso hacia la liberación colectiva. No son gestos testimoniales ni simbólicos: son acumulación de poder real.
+
+### Los de Abajo y más allá
+
+Proyectos como "Los de Abajo" son faros en la oscuridad, ejemplos de que es posible organizarse de otro modo, vivir según otras lógicas, resistir y construir simultáneamente. Pero no pueden hacerlo solos. Necesitan que más personas despierten, se organicen, se rebelen.
+
+No se trata de que todos se sumen a un único proyecto, sino de que proliferen mil proyectos diferentes, mil formas de resistencia, mil modos de recuperar autonomía. La diversidad de tácticas es nuestra fortaleza; la unidad de propósito es nuestra brújula.
+
+### La historia no ha terminado
+
+El capitalismo neoliberal nos quiere hacer creer que la historia ha terminado, que no hay alternativa posible, que esto es lo mejor que podemos aspirar. Pero la historia está llena de imperios que parecían eternos hasta que colapsaron, de sistemas que parecían invencibles hasta que fueron derrotados.
+
+Nuestro tiempo es de crisis múltiples: económica, ecológica, social, política, civilizatoria. Esta crisis puede derivar en un autoritarismo tecnocrático aún más opresivo, o puede ser la oportunidad para imaginar y construir un mundo radicalmente diferente. El desenlace no está escrito: depende de lo que hagamos ahora.
+
+---
+
+<div class="my-8 p-6 bg-gradient-to-r from-red-900/40 to-black border border-red-500/50 rounded-lg text-center">
+  <h3 class="text-2xl font-bold mb-4 text-red-300">SÚMATE AL DEBATE Y A LA ACCIÓN</h3>
+  <p class="text-lg mb-4">
+    Este artículo es solo el inicio de una conversación necesaria. Si quieres participar en la construcción de alternativas reales, si tienes dudas, críticas o propuestas, si quieres sumarte a proyectos de organización popular como "Los de Abajo", contáctanos:
+  </p>
+  <div class="text-xl font-semibold text-red-400">
+    📩 eldivergente@proton.me
+  </div>
+  <p class="mt-4 text-sm text-gray-400">
+    La transformación social no la hacen individuos aislados, sino colectivos organizados. El primer paso es comunicarnos.
+  </p>
+</div>
+
+<div class="my-6 p-4 bg-red-900/30 border-l-4 border-red-500 rounded">
+  <p class="text-lg font-semibold mb-2">Enlaces de profundización:</p>
+  <ul class="space-y-2">
+    <li><a href="https://roarmag.org/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">ROAR Magazine - Reflexiones sobre autonomía y democracia radical</a></li>
+    <li><a href="https://crimethinc.com/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">CrimethInc - Herramientas para la acción directa</a></li>
+    <li><a href="https://www.worldbeyondwar.org/" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">World Beyond War - Organización global por la paz y la justicia</a></li>
+  </ul>
+</div>
+
+**El poder nos pertenece. Solo tenemos que tomarlo.**
+    `,
+    image: quienTienePoderHeroImg,
+    category: "Política",
+    date: "20 de Mayo, 2025",
+    author: "El Divergente"
+  },
   {
     id: "elecciones-argentina-2025",
     title: "Elecciones de Medio Término en Argentina 2025: poder, fracturas y futuro político",
