@@ -8,7 +8,23 @@ import { articles } from "@/data/articles";
 import heroBackground from "@/assets/hero-background.jpg";
 
 const Index = () => {
-  const latestArticles = articles.slice(0, 3);
+  // Agrupar artículos por categoría
+  const articlesByCategory = articles.reduce((acc, article) => {
+    const category = article.category;
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(article);
+    return acc;
+  }, {} as Record<string, typeof articles>);
+
+  // Obtener las últimas 2 artículos por categoría
+  const categoriesWithArticles = Object.entries(articlesByCategory)
+    .map(([category, articles]) => ({
+      category,
+      articles: articles.slice(0, 2)
+    }))
+    .filter(item => item.articles.length > 0);
 
   return (
     <div className="min-h-screen">
@@ -91,20 +107,37 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Latest Articles */}
+      {/* Latest Articles by Category */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-12 glow-violet">
-            Últimos Artículos
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-16 glow-violet">
+            Últimos Artículos por Categoría
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {latestArticles.map((article) => (
-              <ArticleCard key={article.id} {...article} />
+          <div className="space-y-16">
+            {categoriesWithArticles.map(({ category, articles }) => (
+              <div key={category} className="space-y-6">
+                <div className="flex items-center justify-between">
+                  <h3 className="font-heading text-2xl md:text-3xl font-bold glow-blue">
+                    {category}
+                  </h3>
+                  <Link to={`/articles?category=${encodeURIComponent(category)}`}>
+                    <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80">
+                      Ver más →
+                    </Button>
+                  </Link>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {articles.map((article) => (
+                    <ArticleCard key={article.id} {...article} />
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
 
-          <div className="text-center">
+          <div className="text-center mt-16">
             <Link to="/articles">
               <Button variant="outline" size="lg">
                 Ver Todos los Artículos
