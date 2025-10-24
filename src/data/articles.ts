@@ -13,6 +13,7 @@ import controlMediaticoImg from "@/assets/article-control-mediatico.jpg";
 import redesComunitariasImg from "@/assets/article-redes-comunitarias.jpg";
 import concienciaSocialImg from "@/assets/article-conciencia-social.jpg";
 import losDeAbajoImg from "@/assets/article-los-de-abajo.jpg";
+import doctrinaLuciferinaImg from "@/assets/article-doctrina-luciferina.jpg";
 
 export interface Article {
   id: string;
@@ -26,6 +27,86 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {
+    id: "doctrina-luciferina-mundo-terrenal",
+    title: "Los crueles y los genocidas son premiados mientras los de noble corazón y alma son marginados y vituperados... la doctrina luciferina operando en el mundo terrenal día y noche",
+    excerpt: "El mundo actual vive bajo una inversión total de los valores. La verdad se volvió sospechosa, la justicia se relativizó, y la bondad se convirtió en sinónimo de debilidad. Un análisis sobre la manifestación visible de la doctrina luciferina en el orden político moderno.",
+    content: `
+## La doctrina del mal en el orden político moderno
+
+El mundo actual vive bajo una inversión total de los valores. La verdad se volvió sospechosa, la justicia se relativizó, y la bondad se convirtió en sinónimo de debilidad. En la política, en los medios, en la economía y hasta en la vida cotidiana, vemos cómo los despiadados ascienden mientras los nobles son silenciados. Los tiranos son premiados, los corruptos son glorificados, y los que conservan un corazón puro son burlados o marginados. Este fenómeno no es casual ni nuevo: es la manifestación visible de una doctrina oscura que ha trabajado durante siglos en las sombras del poder humano: **la doctrina luciferina**.
+
+Más allá de su dimensión teológica, la doctrina luciferina es un sistema político-cultural que busca invertir el orden moral natural. Su esencia es reemplazar la verdad por la mentira, la compasión por el cálculo, el servicio por el dominio. Opera bajo múltiples nombres —progreso, globalismo, eficiencia, realpolitik— pero su fin es el mismo: separar al hombre de su alma y someterlo al poder del ego y la codicia.
+
+Los imperios antiguos y las potencias modernas han aprendido a justificar sus atrocidades con discursos humanitarios. Se bombardean pueblos "por la libertad", se endeudan naciones "por su desarrollo", se manipula la opinión pública "por la democracia". Los genocidas visten trajes, dan conferencias y son presentados como líderes visionarios, mientras los pueblos que aún conservan un sentido moral son señalados como retrógrados o fanáticos.
+
+Esta lógica del poder sin alma es la expresión política del mal espiritual. Y hoy domina casi todos los ámbitos del poder mundial.
+
+## El alma humana en la era de la inversión moral
+
+La doctrina del mal no necesita ejércitos para triunfar: le basta con la complicidad del corazón humano. En la medida en que el hombre moderno renuncia a su dimensión espiritual, se vuelve funcional al sistema. El egoísmo, la indiferencia y la vanidad son los pilares de una sociedad diseñada para premiar la astucia y castigar la virtud.
+
+Las estructuras educativas enseñan a competir, no a comprender. Los medios celebran la superficialidad, no la sabiduría. Y la política se ha convertido en un espectáculo de máscaras donde los más corruptos son los más aplaudidos. De este modo, el alma colectiva pierde su orientación y se rinde ante el poder de lo material.
+
+**El mal triunfa no solo cuando gobierna, sino cuando logra que el bien se avergüence de sí mismo.**
+
+## La persecución del justo como norma del mundo
+
+Desde los albores de la historia, el justo ha sido perseguido porque su sola existencia denuncia la mentira del sistema. Sócrates fue condenado por enseñar la virtud, Jesús crucificado por hablar la verdad, los profetas asesinados por advertir sobre la corrupción. Nada ha cambiado: quien desafía la maquinaria del mal con pureza es ridiculizado, censurado o destruido.
+
+En nuestros días, los que defienden la vida son tildados de fanáticos, los que claman por justicia son tratados como agitadores, y los que hablan de alma son acusados de conspiradores. Mientras tanto, los verdaderos conspiradores —los arquitectos del sufrimiento humano— son recibidos con honores y galardones.
+
+Esta inversión moral no es un accidente histórico, sino el signo de que el poder terrenal está regido por una energía espiritual degradada.
+
+<div class="my-8 p-6 bg-primary/20 border-l-4 border-primary rounded-lg">
+  <p class="text-xl font-semibold italic text-primary">"Sabemos que somos de Dios, y el mundo entero está bajo el poder del maligno."</p>
+  <p class="text-sm mt-2 text-muted-foreground">— 1 Juan 5:19</p>
+</div>
+
+## Restaurar el orden espiritual y moral
+
+Pero incluso en medio de la oscuridad, siempre hay una llama que no se apaga. La doctrina luciferina puede corromper instituciones y contaminar culturas, pero no puede destruir el alma que permanece fiel al bien. Cada acto de verdad, cada gesto de amor y cada resistencia silenciosa al mal cotidiano es una victoria espiritual.
+
+La verdadera revolución no será política ni económica, sino interior. Solo un hombre que recupere su conciencia, que reconozca su dignidad y su origen divino, puede reconstruir el orden destruido.
+
+<div class="my-8 p-6 bg-primary/20 border-l-4 border-primary rounded-lg">
+  <p class="text-xl font-semibold italic text-primary">"No os conforméis a este mundo, sino transformaos por medio de la renovación de vuestro entendimiento."</p>
+  <p class="text-sm mt-2 text-muted-foreground">— Romanos 12:2</p>
+</div>
+
+La restauración del bien comienza cuando el hombre deja de admirar al poderoso y vuelve a admirar al justo.
+
+## Reflexión final: la victoria de la luz sobre las tinieblas
+
+El tiempo presente es una prueba espiritual. La humanidad debe decidir si seguirá honrando a los crueles o si recuperará la nobleza del alma. La doctrina del mal puede dominar los gobiernos, las finanzas y los medios, pero su poder termina donde comienza la conciencia despierta.
+
+<div class="my-8 p-6 bg-primary/20 border-l-4 border-primary rounded-lg">
+  <p class="text-xl font-semibold italic text-primary">"La luz brilla en las tinieblas, y las tinieblas no prevalecieron contra ella."</p>
+  <p class="text-sm mt-2 text-muted-foreground">— Juan 1:5</p>
+</div>
+
+Mientras existan hombres y mujeres que conserven su integridad, su compasión y su fe, la doctrina luciferina fracasará. Porque el amor, aunque silencioso y marginado, tiene un poder que el mal nunca podrá imitar ni destruir.
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Autor: Redacción de El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Política</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Espiritualidad</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Filosofía</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Sociedad</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Doctrina del mal</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">Valores humanos</span>
+  </div>
+</div>
+    `,
+    image: doctrinaLuciferinaImg,
+    category: "Política",
+    date: "2025-01-20",
+    author: "Redacción de El Divergente"
+  },
   {
     id: "quien-tiene-poder-como-recuperarlo",
     title: "¿Quién tiene el poder y cómo recuperarlo?",
