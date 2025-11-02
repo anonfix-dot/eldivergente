@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Calendar, User, ArrowLeft, Share2, Twitter, Facebook } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -27,8 +28,36 @@ const ArticleDetail = () => {
 
   const relatedArticles = articles.filter((a) => a.id !== article.id && a.category === article.category).slice(0, 2);
 
+  const articleUrl = `${window.location.origin}/articles/${article.id}`;
+  const articleImageUrl = `${window.location.origin}${article.image}`;
+
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>{article.title} - El Divergente</title>
+        <meta name="description" content={article.excerpt} />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={articleUrl} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.excerpt} />
+        <meta property="og:image" content={articleImageUrl} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="article:published_time" content={article.date} />
+        <meta property="article:author" content={article.author} />
+        <meta property="article:section" content={article.category} />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={articleUrl} />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.excerpt} />
+        <meta name="twitter:image" content={articleImageUrl} />
+        <meta name="twitter:site" content="@eldivergente" />
+      </Helmet>
+      
       <Header />
 
       {/* Article Header */}
