@@ -1,20 +1,4 @@
-import geopoliticsImg from "@/assets/article-geopolitics.jpg";
-import societiesImg from "@/assets/article-societies.jpg";
-import economyImg from "@/assets/article-economy.jpg";
-import imperioFronteraImg from "@/assets/article-imperio-frontera.jpg";
-import latinoamericaEstrategiaImg from "@/assets/article-latinoamerica-estrategia.jpg";
-import gazaCrisisImg from "@/assets/article-gaza-crisis.jpg";
-import eleccionesArgentina2025Img from "@/assets/article-elecciones-argentina-2025.jpg";
-import baElectoralImg from "@/assets/article-ba-electoral.jpg";
-import mapaPoliticoArgentinaImg from "@/assets/article-mapa-politico-argentina.jpg";
-import quienTienePoderHeroImg from "@/assets/article-quien-tiene-poder-hero.jpg";
-import poderCiudadanoImg from "@/assets/article-poder-ciudadano.jpg";
-import controlMediaticoImg from "@/assets/article-control-mediatico.jpg";
-import redesComunitariasImg from "@/assets/article-redes-comunitarias.jpg";
-import concienciaSocialImg from "@/assets/article-conciencia-social.jpg";
-import losDeAbajoImg from "@/assets/article-los-de-abajo.jpg";
-import doctrinaLuciferinaImg from "@/assets/article-doctrina-luciferina.png";
-import cuneoConfederacionImg from "@/assets/article-cuneo-confederacion.png";
+// Article images are now in public/images/ for social media sharing
 
 export interface Article {
   id: string;
@@ -172,7 +156,7 @@ De su despertar depende si Argentina sigue siendo una colonia posmoderna o vuelv
   </div>
 </div>
     `,
-    image: losDeAbajoImg,
+    image: "/images/article-los-de-abajo.jpg",
     category: "Política",
     date: "2025-02-02",
     author: "El Divergente"
@@ -335,7 +319,7 @@ El peligro no está en la Confederación como idea —que podría tener fundamen
   </div>
 </div>
     `,
-    image: cuneoConfederacionImg,
+    image: "/images/article-cuneo-confederacion.png",
     category: "Política",
     date: "2025-01-26",
     author: "Redacción de El Divergente"
@@ -415,7 +399,7 @@ Mientras existan hombres y mujeres que conserven su integridad, su compasión y 
   </div>
 </div>
     `,
-    image: doctrinaLuciferinaImg,
+    image: "/images/article-doctrina-luciferina.png",
     category: "Política",
     date: "2025-01-20",
     author: "Redacción de El Divergente"
@@ -447,7 +431,7 @@ El Foro Económico Mundial, el Banco Mundial, el Fondo Monetario Internacional, 
 ## LA CESIÓN GRADUAL: CÓMO EL PUEBLO PERDIÓ EL CONTROL
 
 <div class="my-8">
-  <img src="${poderCiudadanoImg}" alt="Ciudadanos levantando el puño en resistencia frente a torres corporativas" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-poder-ciudadano.jpg" alt="Ciudadanos levantando el puño en resistencia frente a torres corporativas" class="w-full rounded-lg shadow-lg" />
 </div>
 
 La pérdida del poder popular no fue un evento único, sino un proceso histórico de décadas que se aceleró brutalmente a partir de la caída del Muro de Berlín y el triunfo del modelo neoliberal como único horizonte posible.
@@ -478,7 +462,7 @@ Mientras discutimos sobre diferencias culturales, de género, étnicas o generac
 ## EL CONTROL MEDIÁTICO: LA FÁBRICA DEL CONSENSO
 
 <div class="my-8">
-  <img src="${controlMediaticoImg}" alt="Pantallas gigantes y cámaras de vigilancia en ambiente urbano distópico" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-control-mediatico.jpg" alt="Pantallas gigantes y cámaras de vigilancia en ambiente urbano distópico" class="w-full rounded-lg shadow-lg" />
 </div>
 
 Noam Chomsky y Edward Herman llamaron a este fenómeno "la manufactura del consentimiento". Los medios de comunicación masiva, concentrados en pocas manos corporativas, no informan: **programan**.
@@ -509,7 +493,7 @@ Los algoritmos nos encierran en burbujas de confirmación, radicalizando nuestra
 ## LA RESISTENCIA POSIBLE: RECUPERANDO EL PODER DESDE ABAJO
 
 <div class="my-8">
-  <img src="${redesComunitariasImg}" alt="Personas formando redes comunitarias con conexiones de luz" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-redes-comunitarias.jpg" alt="Personas formando redes comunitarias con conexiones de luz" class="w-full rounded-lg shadow-lg" />
 </div>
 
 Frente a esta realidad abrumadora, surge la pregunta central: **¿es posible recuperar el poder?** La respuesta es afirmativa, pero requiere un cambio radical en nuestra forma de pensar y organizarnos.
@@ -542,7 +526,7 @@ La desobediencia estratégica no es el caos o la violencia indiscriminada, sino 
 ## LOS DE ABAJO: UN PROYECTO DE AUTOORGANIZACIÓN POPULAR
 
 <div class="my-8">
-  <img src="${losDeAbajoImg}" alt="Estética revolucionaria del proyecto Los de Abajo con trabajadores unidos" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-conciencia-social.jpg" alt="Estética revolucionaria del proyecto Los de Abajo con trabajadores unidos" class="w-full rounded-lg shadow-lg" />
 </div>
 
 En este contexto de crisis sistémica y búsqueda de alternativas, surge el proyecto **"Los de Abajo"** (https://losdeabajo.lovable.app), una propuesta concreta de resistencia y construcción de poder popular.
@@ -686,7 +670,7 @@ Nuestro tiempo es de crisis múltiples: económica, ecológica, social, polític
 
 **El poder nos pertenece. Solo tenemos que tomarlo.**
     `,
-    image: quienTienePoderHeroImg,
+    image: "/images/article-quien-tiene-poder-hero.jpg",
     category: "Política",
     date: "20 de Mayo, 2025",
     author: "El Divergente"
@@ -701,7 +685,7 @@ Nuestro tiempo es de crisis múltiples: económica, ecológica, social, polític
 Argentina llega a las elecciones de medio término de 2025 en un contexto de alta volatilidad política, económica y social. La inflación continúa siendo uno de los principales flagelos que afectan a la población, mientras que la fragmentación del sistema partidario alcanza niveles históricos. Las expectativas ciudadanas oscilan entre la esperanza de cambio y el escepticismo frente a una clase política que parece incapaz de acordar un rumbo de largo plazo.
 
 <div class="my-8">
-  <img src="${baElectoralImg}" alt="Escena electoral en Buenos Aires con carteles y urnas" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-ba-electoral.jpg" alt="Escena electoral en Buenos Aires con carteles y urnas" class="w-full rounded-lg shadow-lg" />
 </div>
 
 Estos comicios no son simplemente una renovación parcial del Congreso: son un referéndum sobre la gestión del gobierno de Javier Milei, una prueba de fuego para la oposición tradicional y una ventana de oportunidad para nuevas fuerzas políticas que buscan capitalizar el descontento generalizado. El resultado de octubre definirá no solo la composición legislativa, sino también la viabilidad de cualquier proyecto político a futuro.
@@ -799,7 +783,7 @@ El kirchnerismo duro apuesta por una estrategia de resistencia frontal al gobier
 Uno de los fenómenos más interesantes de estas elecciones es el surgimiento y consolidación de fuerzas políticas provinciales y nuevos movimientos que desafían el esquema tradicional de grieta.
 
 <div class="my-8">
-  <img src="${mapaPoliticoArgentinaImg}" alt="Mapa político de Argentina con regiones destacadas" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-mapa-politico-argentina.jpg" alt="Mapa político de Argentina con regiones destacadas" class="w-full rounded-lg shadow-lg" />
 </div>
 
 ### La izquierda y los partidos de trabajadores
@@ -903,7 +887,7 @@ Estas legislativas son también el primer escalón hacia las elecciones presiden
 
 Todas estas preguntas comenzarán a responderse el día de las elecciones. Argentina está ante una encrucijada histórica, y las decisiones que se tomen en los próximos meses serán determinantes para las generaciones futuras.
     `,
-    image: eleccionesArgentina2025Img,
+    image: "/images/article-elecciones-argentina-2025.jpg",
     category: "Política Nacional",
     date: "15 de Mayo, 2025",
     author: "El Divergente"
@@ -918,7 +902,7 @@ Todas estas preguntas comenzarán a responderse el día de las elecciones. Argen
 Los viejos instrumentos del poder estadounidense vuelven a afinarse en Latinoamérica. Tras años de relativa retirada, Washington ha vuelto a enfocar la región como pieza clave para sus intereses estratégicos: rutas comerciales, materias primas, equilibrio frente a potencias emergentes como China y control político-ideológico.
 
 <div class="my-8">
-  <img src="${latinoamericaEstrategiaImg}" alt="Mapa estratégico de América Latina" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-latinoamerica-estrategia.jpg" alt="Mapa estratégico de América Latina" class="w-full rounded-lg shadow-lg" />
 </div>
 
 Según análisis recientes, la estrategia del gobierno norteamericano incluye contrarrestar la influencia china, asegurar acceso a recursos naturales críticos y mantener alianzas que garanticen su hegemonía en el hemisferio occidental.
@@ -936,7 +920,7 @@ El resultado es un escenario de tensiones crecientes: Washington empuja por recu
 Paralelamente, en Medio Oriente la situación en Gaza y Cisjordania entra en una fase de destrucción acelerada. En el territorio de Gaza, la combinación de bloqueo, bombardeos, destrucción de infraestructura humanitaria y desplazamiento masivo ha llevado a un desastre de dimensiones dramáticas.
 
 <div class="my-8">
-  <img src="${gazaCrisisImg}" alt="Crisis humanitaria en Gaza" class="w-full rounded-lg shadow-lg" />
+  <img src="/images/article-gaza-crisis.jpg" alt="Crisis humanitaria en Gaza" class="w-full rounded-lg shadow-lg" />
 </div>
 
 Organismos como Amnesty International han concluido que la conducta israelí "incluye actos genocidas" al inferir que el objetivo es "destruir, al menos en parte, al pueblo palestino de Gaza".
@@ -961,7 +945,7 @@ Existe un doble rasero: en un hemisferio se promueve el discurso de "alianza y l
 
 EE.UU. en Latinoamérica busca reconquistar un rol de liderazgo que considera perdido, adaptándose al nuevo escenario multipolar, pero con la lógica tradicional de acceso a recursos y control estratégico. En Gaza/Palestina, la tragedia humanitaria se agrava bajo la lógica de seguridad de Israel y el apoyo estadounidense, con consecuencias que muchos califican como genocidio. Para interpretar el mundo actual, es útil ver estos dos casos como espejos de una misma mecánica global: poder, dependencia y sufrimiento humano.
     `,
-    image: imperioFronteraImg,
+    image: "/images/article-imperio-frontera.jpg",
     category: "Geopolítica",
     date: "20 de Abril, 2025",
     author: "El Divergente"
@@ -991,7 +975,7 @@ Las conexiones entre think tanks, fundaciones privadas, grupos de élite como Bi
 
 El verdadero poder geopolítico no reside en los parlamentos ni en los palacios presidenciales, sino en las salas de juntas de Wall Street, en las reuniones secretas de Davos y en los corredores de instituciones como el Banco Mundial y el FMI. Comprender esto es el primer paso para ver el mundo tal como realmente es, no como nos lo presentan.
     `,
-    image: geopoliticsImg,
+    image: "/images/article-geopolitics.jpg",
     category: "Geopolítica",
     date: "15 de Abril, 2025",
     author: "El Divergente"
@@ -1021,7 +1005,7 @@ Cada verano, la élite global se reúne en los bosques del norte de California p
 
 Estas organizaciones no son simplemente clubes sociales de élite. Son espacios donde se forjan alianzas, se toman decisiones que afectan a millones y se perpetúa una visión particular del orden mundial.
     `,
-    image: societiesImg,
+    image: "/images/article-societies.jpg",
     category: "Sociedades Secretas",
     date: "8 de Abril, 2025",
     author: "El Divergente"
@@ -1055,7 +1039,7 @@ Las criptomonedas fueron presentadas como una alternativa descentralizada al sis
 
 El dinero no es neutral. Es un instrumento de poder, y quienes controlan su creación y distribución controlan, en última instancia, la economía global y, por extensión, la política y la sociedad.
     `,
-    image: economyImg,
+    image: "/images/article-economy.jpg",
     category: "Economía Oculta",
     date: "1 de Abril, 2025",
     author: "El Divergente"

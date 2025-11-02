@@ -28,7 +28,7 @@ const ArticleDetail = () => {
 
   const relatedArticles = articles.filter((a) => a.id !== article.id && a.category === article.category).slice(0, 2);
 
-  const articleUrl = `${window.location.origin}/articles/${article.id}`;
+  const articleUrl = `${window.location.origin}/article/${article.id}`;
   const articleImageUrl = `${window.location.origin}${article.image}`;
 
   return (
