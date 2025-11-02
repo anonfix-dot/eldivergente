@@ -29,6 +29,155 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "argentina-colonia-posmoderna",
+    title: "🧭 ARGENTINA: LA COLONIA POSMODERNA DEL SIGLO XXI",
+    excerpt: "Argentina no se gobierna a sí misma. Lo hace un entramado de poder transnacional que combina tecnología, medios y política bajo una sola dirección: la tutela de Estados Unidos y sus aliados. Pero todavía hay una grieta que no pudieron cerrar: los de abajo.",
+    content: `
+## Introducción
+
+"El poder ya no se conquista, se administra desde afuera. Pero todavía hay una grieta que no pudieron cerrar: los de abajo."
+
+Argentina no se gobierna a sí misma. Lo hace un entramado de poder transnacional que combina tecnología, medios y política bajo una sola dirección: la tutela de Estados Unidos y sus aliados.
+
+La bandera, las elecciones y los discursos sobreviven como rituales vacíos en un país administrado a distancia. Lo que antes se hacía con cañones y embajadas, hoy se ejecuta con algoritmos, deuda y propaganda.
+
+## El aparato del control
+
+Indra garantiza el recuento "democrático". La Embajada de EE.UU. supervisa la política y define el rumbo económico. El FMI dicta cuándo se ajusta y quién gobierna.
+
+Desde Néstor hasta Milei, ningún gobierno rompió el cerco: todos administran la dependencia.
+
+El sistema funciona como una matriz invisible: el poder no cambia de manos, solo de rostro.
+
+> "El FMI no impone condiciones, impone realidad."
+
+## La ilusión del cambio
+
+El kirchnerismo y el liberalismo son las dos manos del mismo cuerpo.
+
+Cristina sostiene el relato del "pueblo contra el mercado"; Milei encarna la "libertad contra el Estado".
+
+Ambos preservan la dependencia estructural y legitiman el dominio financiero global.
+
+La política argentina se volvió teatro: los actores cambian, pero el guion lo escribe la Embajada.
+
+Y los pseudo-nacionalistas esperan entre bastidores su papel en la próxima farsa.
+
+## La clase media: alma vendida al enemigo
+
+La clase media argentina ya no es un sujeto político: es un instrumento del sistema.
+
+Asfixiada por el miedo a caer, entregó su conciencia a cambio de estabilidad y consumo.
+
+Sueña con dólares que nunca tendrá, desprecia al pobre que sostiene su confort y repite el discurso de sus verdugos.
+
+Convertida en policía moral del poder, defiende la jaula porque teme perder la llave.
+
+En su ansiedad, se volvió el muro más sólido de la dominación.
+
+> "El enemigo no necesita censurar al pueblo: la clase media lo hace gratis."
+
+## Los de abajo: el último poder real
+
+Solo los de abajo conservan fuerza genuina: los que no tienen nada que perder salvo la miseria ajena.
+
+El obrero, el informal, el docente, el jubilado, el campesino, el joven sin futuro.
+
+Ellos sostienen el país real mientras la élite lo vacía.
+
+Son el núcleo vivo de la soberanía, el músculo que aún no fue anestesiado por el sistema.
+
+Cuando comprendan que su unión vale más que cualquier promesa política, la maquinaria entera empezará a temblar.
+
+## La maquinaria mediática
+
+Los medios son la nueva policía mental.
+
+Clarín, La Nación, TN, América, Crónica y un ejército de influencers fabrican realidad.
+
+La indignación se vende al por mayor; la conciencia, al silencio.
+
+El ciudadano vota como compra: por miedo o reflejo condicionado.
+
+Ya no piensa, reacciona.
+
+Ya no elige, obedece.
+
+## El plan continental
+
+Argentina es una pieza dentro del proyecto de control blando que EE.UU. aplica sobre América Latina.
+
+Deuda, dolarización cultural, manipulación mediática y aislamiento de los gobiernos soberanistas.
+
+Venezuela resiste con dignidad y paga el precio de su independencia.
+
+Los demás países administran la colonia con distintas estéticas.
+
+El imperio ya no conquista territorios: conquista conciencias.
+
+## El nuevo colonialismo
+
+No hace falta ocupar un país, basta con ocupar su mente.
+
+El argentino medio teme más perder señal que perder derechos.
+
+La soberanía es un logo; el patriotismo, un filtro.
+
+El nuevo ídolo es el dólar, y su templo, el mercado.
+
+Mientras el pueblo se entretiene con la "grieta", el verdadero poder sigue intacto.
+
+> "El dólar se volvió el nuevo himno nacional de la colonia."
+
+## Los de abajo contra el imperio
+
+La rebelión que viene no será partidaria ni ideológica: será moral y popular.
+
+Surgirá del cansancio, del hartazgo, del hambre de justicia.
+
+Los de abajo no necesitan programas, necesitan conciencia de clase y dignidad.
+
+Cuando el pueblo entienda que su fuerza no está en el voto sino en la unión, la hegemonía se quebrará.
+
+Y el imperio sabrá que el ciclo de la obediencia ha terminado.
+
+## Epílogo
+
+El sistema teme una sola cosa: un pueblo que piense por sí mismo.
+
+Y ese pueblo no será la clase media.
+
+Serán los de abajo, los que cargan el país en la espalda, los que no fueron domesticados por la comodidad ni el miedo.
+
+Ellos son la última reserva moral de la patria.
+
+De su despertar depende si Argentina sigue siendo una colonia posmoderna o vuelve a ser una nación soberana.
+
+> 🩸 "Cuando los de abajo se levanten, los de arriba no tendrán dónde esconderse."
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Autor: El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ElDivergente</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#LosDeAbajo</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ArgentinaColonial</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Soberanía</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DespertarPopular</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Dependencia</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#AntiImperialismo</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ConcienciaColectiva</span>
+  </div>
+</div>
+    `,
+    image: losDeAbajoImg,
+    category: "Política",
+    date: "2025-02-02",
+    author: "El Divergente"
+  },
+  {
     id: "santiago-cuneo-confederacion-argentina",
     title: "Santiago Cúneo y la Confederación Argentina: disidencia, secta o instrumento del poder",
     excerpt: "Durante los últimos años, la figura de Santiago Cúneo ha pasado de ser una curiosidad mediática a transformarse en un fenómeno político que despierta interés y sospecha por igual. Un análisis profundo sobre su propuesta confederal, sus contradicciones y su posible rol como disidencia controlada.",
