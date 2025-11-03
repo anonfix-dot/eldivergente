@@ -1,10 +1,12 @@
 import { useParams, Link } from "react-router-dom";
-import { Calendar, User, ArrowLeft, Share2, Twitter, Facebook } from "lucide-react";
+import { Calendar, User, ArrowLeft } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArticleCard } from "@/components/ArticleCard";
+import { SocialShare } from "@/components/SocialShare";
+import { Comments } from "@/components/Comments";
 import { articles } from "@/data/articles";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -113,23 +115,10 @@ const ArticleDetail = () => {
           </div>
 
           {/* Share Buttons */}
-          <div className="border-t border-primary/20 pt-8 mb-12">
-            <h3 className="font-heading text-xl font-bold mb-4">Compartir este artículo</h3>
-            <div className="flex gap-3">
-              <Button variant="outline" size="sm">
-                <Twitter size={16} className="mr-2" />
-                Twitter
-              </Button>
-              <Button variant="outline" size="sm">
-                <Facebook size={16} className="mr-2" />
-                Facebook
-              </Button>
-              <Button variant="outline" size="sm">
-                <Share2 size={16} className="mr-2" />
-                Copiar enlace
-              </Button>
-            </div>
-          </div>
+          <SocialShare title={article.title} url={articleUrl} />
+
+          {/* Comments Section */}
+          <Comments articleId={article.id} />
 
           {/* Related Articles */}
           {relatedArticles.length > 0 && (
