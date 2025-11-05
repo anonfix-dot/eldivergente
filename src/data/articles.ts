@@ -13,6 +13,127 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "trabajo-dignifica-mentira-moral",
+    title: '"El trabajo dignifica": la gran mentira moral de la modernidad',
+    excerpt: "Durante siglos repetimos que el trabajo dignifica. Pero bajo esa virtud se oculta una de las narrativas más poderosas del control social moderno.",
+    content: `
+## 🧭 "El trabajo dignifica": la gran mentira moral de la modernidad
+
+Durante siglos, la humanidad repite una frase que suena noble, casi incuestionable: "El trabajo dignifica."
+
+Sin embargo, bajo esa aparente virtud se oculta una de las narrativas más poderosas del control social moderno.
+
+Porque si la dignidad humana depende del trabajo, entonces quien no trabaja —o quien no encaja en la maquinaria productiva— deja de ser digno.
+
+Y eso, más que una moral, es una trampa.
+
+## ⚙️ El origen: de virtud espiritual a dogma económico
+
+El concepto nació en la tradición judeocristiana.
+
+En el Génesis, Dios castiga a Adán con el sudor de su frente: el trabajo surge como pena, no como bendición.
+
+Pero siglos más tarde, el pensamiento protestante reinterpretó esa pena como disciplina espiritual.
+
+Para Lutero y Calvino, trabajar con esfuerzo y constancia era una forma de glorificar a Dios.
+
+Weber, en su célebre "Ética protestante y el espíritu del capitalismo", mostró cómo esa mentalidad fue el combustible moral del nuevo orden económico: la idea de que el trabajo no solo producía riqueza, sino también valor moral.
+
+De ahí en adelante, el capitalismo no necesitó látigos: bastaba con convencer al trabajador de que su sumisión era virtud.
+
+El esclavo se convirtió en "empleado", el látigo en "horario laboral", y la obediencia en "mérito".
+
+## 🧠 La dignidad: un valor del ser, no del hacer
+
+La dignidad no es un premio que se gana con esfuerzo.
+
+Es un valor ontológico, inherente al simple hecho de existir como ser humano.
+
+Ningún trabajo —por más duro o noble que sea— puede otorgarla, porque nadie puede dar lo que no se puede quitar.
+
+El error de nuestra cultura fue confundir el valor del trabajo con el valor del trabajador.
+
+El trabajo puede ser útil, creativo, solidario, pero eso no lo vuelve fuente de dignidad.
+
+De hecho, hay quienes realizan tareas heroicas y viven humillados, y hay quienes no trabajan en absoluto y gozan de "prestigio".
+
+La dignidad, entonces, no depende de la función económica, sino del nivel de conciencia, de la ética interior y de la libertad espiritual.
+
+## 🔒 El trabajo como herramienta de control
+
+Cuando el sistema repite que "el trabajo dignifica", no lo hace por amor al esfuerzo.
+
+Lo hace porque necesita mantener al ser humano ocupado, endeudado y culpable.
+
+Un trabajador convencido de que su valor depende de su empleo nunca se rebelará: temerá quedarse "sin dignidad".
+
+Esa es la base psicológica del capitalismo moderno: la culpa del ocio, el orgullo de la explotación, la identidad ligada al rendimiento.
+
+La gente no pregunta si su trabajo tiene sentido; solo si "le alcanza para vivir".
+
+Y cuando el salario se vuelve sinónimo de existencia, la libertad se vuelve un lujo.
+
+## 🔥 La rebelión del ser
+
+Liberarse de esta narrativa no implica dejar de trabajar, sino redefinir el sentido del trabajo.
+
+Trabajar puede ser un acto sagrado cuando surge del amor, la creación o el servicio, pero se vuelve una forma de esclavitud cuando nace del miedo, la necesidad o la obediencia.
+
+La nueva conciencia debe proclamar que:
+
+**"El ser humano dignifica al trabajo, no el trabajo al ser humano."**
+
+Cuando una persona crea, enseña, cultiva, cuida o construye desde su libertad interior, está expresando su dignidad, no buscándola.
+
+Esa es la diferencia entre el trabajo del alma y el trabajo del sistema.
+
+## 🌱 El horizonte post-laboral
+
+La automatización, la inteligencia artificial y las nuevas economías nos ponen frente a una pregunta crucial:
+
+**¿Qué pasará con la dignidad cuando ya no haya empleo para todos?**
+
+Esa pregunta revela el núcleo del engaño: si el trabajo era el único camino a la dignidad, ¿qué sucede con quien no puede "producir"? ¿Pierde su valor como persona?
+
+El futuro nos exige una revolución moral: volver a entender que la dignidad no se gana, se reconoce.
+
+Y que el trabajo solo tiene sentido cuando está al servicio de la vida, no al revés.
+
+## ✊ Epílogo: la redención del hombre libre
+
+Mientras exista un solo ser humano que crea que su valor depende de un patrón o de un sueldo, seguirá existiendo esclavitud.
+
+La verdadera libertad comienza cuando el individuo se reconcilia con su ser, no con su empleo.
+
+Cuando comprende que la dignidad no se mide en horas trabajadas, sino en coherencia espiritual, en valores vividos, en amor puesto en acción.
+
+**El día en que el pueblo entienda esto, el sistema se derrumbará.**
+
+Porque ya no habrá mano de obra dócil, sino seres conscientes.
+
+Y entonces sí, el trabajo —liberado de la culpa, del miedo y de la explotación— volverá a ser lo que siempre debió ser: una expresión de la dignidad humana, no su sustituto.
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Autor: El Divergente — Ignacio G. Metz</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#TrabajoDignifica</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Dignidad</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Capitalismo</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#LibertadEspiritual</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ControlSocial</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ConcienciaCrítica</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-trabajo-dignifica.jpg",
+    category: "Política Nacional",
+    date: "2025-11-05",
+    author: "El Divergente"
+  },
+  {
     id: "reforma-laboral-esclavitud-moderna",
     title: "Argentina y la Nueva Reforma Laboral: la Psicología de la Esclavitud Moderna",
     excerpt: "La nueva reforma laboral impulsada por el gobierno de Javier Milei marca un punto de inflexión no sólo jurídico o económico, sino profundamente psicológico y cultural. Argentina no está simplemente modificando sus leyes laborales: está redefiniendo la relación del ciudadano con el trabajo, con su tiempo y con su propia dignidad.",
