@@ -13,6 +13,68 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "reforma-laboral-esclavitud-moderna",
+    title: "Argentina y la Nueva Reforma Laboral: la Psicología de la Esclavitud Moderna",
+    excerpt: "La nueva reforma laboral impulsada por el gobierno de Javier Milei marca un punto de inflexión no sólo jurídico o económico, sino profundamente psicológico y cultural. Argentina no está simplemente modificando sus leyes laborales: está redefiniendo la relación del ciudadano con el trabajo, con su tiempo y con su propia dignidad.",
+    content: `
+## La legalización de la precariedad existente
+
+Desde hace años, amplios sectores de la población argentina sobreviven en un limbo laboral. Trabajos sin contrato, pagos diarios o semanales, ausencia de aportes y jornadas que superan con creces las ocho horas son parte del paisaje cotidiano. La nueva reforma, en lugar de revertir ese estado de informalidad, lo absorbe y lo legitima.
+
+Permitir jornadas de hasta 12 horas, flexibilizar la indemnización y debilitar los convenios colectivos no corrige el abuso: lo normaliza. De este modo, el Estado deja de proteger al trabajador y pasa a regular la explotación, oficializando lo que antes era ilegal. Psicológicamente, el efecto es devastador: el individuo que ya venía sometido a una estructura de precariedad percibe la injusticia como algo "natural", mientras el abuso adopta la forma de ley.
+
+## Cómo la reforma estimula el trabajo en negro
+
+Paradójicamente, en nombre de la "formalización" y la "competitividad", esta reforma profundiza los incentivos para el trabajo precario y en negro. Al abaratar el despido y ampliar las horas legales, la diferencia entre contratar formalmente o de manera informal se reduce, por lo que muchas empresas optarán directamente por no registrar empleados. Además, la reducción de la protección sindical y la posibilidad de acuerdos individuales debilita cualquier defensa frente al abuso.
+
+En términos prácticos, esto implica que el trabajo en negro se vuelve aún más rentable para el empleador y más aceptable para el trabajador, que ya no percibe tanta diferencia con el trabajo "legal". Así, la precariedad se multiplica bajo una apariencia de libertad. El resultado es una economía dual donde el empleo formal se convierte en privilegio y la informalidad en norma, reforzando una cultura de servidumbre laboral cada vez más profunda.
+
+## La resignación como mecanismo de control
+
+La clave del nuevo paradigma no está sólo en las leyes, sino en la mente colectiva. Desde hace años, el argentino promedio ha incorporado la idea de que trabajar 10 o 12 horas diarias "es normal". El cansancio se transformó en mérito; la explotación, en prueba de valor. Esta internalización del sacrificio convierte a los trabajadores en cómplices inconscientes de su propia subordinación.
+
+La reforma no impone cadenas: refuerza las mentales que ya existen. El sujeto que acepta la precariedad como destino deja de reclamar derechos. Se autoconvence de que su suerte depende de su esfuerzo individual, sin advertir que el sistema está diseñado para agotar su energía y disolver su conciencia crítica. El resultado es una sociedad fatigada, dócil, sin tiempo ni fuerza para cuestionar.
+
+## El desmonte del tiempo y la subjetividad
+
+La ampliación de la jornada laboral y la fragmentación de las vacaciones no son simples medidas administrativas: representan una erosión del tiempo humano. Un trabajador que vive entre el cansancio y la supervivencia pierde su capacidad de pensar, educarse y participar. Desde el punto de vista psicológico, la alienación se profundiza: el individuo ya no se pertenece, pertenece al reloj de otro.
+
+El descanso deja de ser un derecho y pasa a ser un lujo. En ese contexto, la idea de libertad se distorsiona. Muchos argentinos se sienten "libres" porque pueden elegir entre varios trabajos precarios, cuando en realidad han perdido el control de su propio tiempo vital. Esa ilusión de autonomía es la versión moderna de la esclavitud: un esclavo que se cree libre porque ya no ve sus cadenas.
+
+## La fragmentación social y el debilitamiento colectivo
+
+Al sustituir los convenios colectivos por acuerdos individuales, la reforma disuelve los lazos de solidaridad laboral. Cada trabajador negocia solo, desarmado frente al poder de la empresa. La competencia reemplaza a la cooperación y el miedo al despido se convierte en método de disciplina. Así se fabrica una sociedad fragmentada y sumisa, donde la obediencia se disfraza de mérito.
+
+La psicología de la masa trabajadora se vuelve defensiva y conformista. En lugar de exigir justicia, el trabajador se conforma con no perder lo poco que tiene. El sistema logra su objetivo final: un pueblo que no necesita ser reprimido, porque ya se reprime solo.
+
+## Conclusión: la reforma del alma
+
+La reforma laboral de Milei no sólo cambia contratos: cambia mentalidades. Es un proceso de reingeniería psicológica que convierte la precariedad en normalidad y la explotación en virtud. Bajo la promesa de libertad económica, se instala un modelo donde la dignidad humana vale menos que la productividad.
+
+Argentina, que alguna vez fue ejemplo de derechos laborales en la región, enfrenta hoy una encrucijada moral. O reconstruye su conciencia de clase y defiende el valor del trabajo como acto humano, o acepta su destino de país esclavo con leyes que lo bendicen. La verdadera reforma no está en el Congreso: está en la mente de cada trabajador que decide si quiere ser libre… o útil.
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Autor: El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ReformaLaboral</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#EsclavitudModerna</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Argentina</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DerechosLaborales</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#PsicologíaSocial</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#TrabajoDigno</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Milei</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-reforma-laboral.png",
+    category: "Política Nacional",
+    date: "2025-11-04",
+    author: "El Divergente"
+  },
+  {
     id: "argentina-colonia-posmoderna",
     title: "🧭 ARGENTINA: LA COLONIA POSMODERNA DEL SIGLO XXI",
     excerpt: "Argentina no se gobierna a sí misma. Lo hace un entramado de poder transnacional que combina tecnología, medios y política bajo una sola dirección: la tutela de Estados Unidos y sus aliados. Pero todavía hay una grieta que no pudieron cerrar: los de abajo.",
