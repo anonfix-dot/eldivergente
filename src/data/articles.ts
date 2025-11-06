@@ -1189,7 +1189,7 @@ Cada verano, la élite global se reúne en los bosques del norte de California p
 Estas organizaciones no son simplemente clubes sociales de élite. Son espacios donde se forjan alianzas, se toman decisiones que afectan a millones y se perpetúa una visión particular del orden mundial.
     `,
     image: "/images/article-societies.jpg",
-    category: "Sociedades Secretas",
+    category: "Sociedad",
     date: "8 de Abril, 2025",
     author: "El Divergente"
   },
@@ -1223,7 +1223,7 @@ Las criptomonedas fueron presentadas como una alternativa descentralizada al sis
 El dinero no es neutral. Es un instrumento de poder, y quienes controlan su creación y distribución controlan, en última instancia, la economía global y, por extensión, la política y la sociedad.
     `,
     image: "/images/article-economy.jpg",
-    category: "Economía Oculta",
+    category: "Economía",
     date: "1 de Abril, 2025",
     author: "El Divergente"
   }
@@ -1233,8 +1233,8 @@ export const categories = [
   "Todos",
   "Política Nacional",
   "Geopolítica",
-  "Sociedades Secretas",
-  "Economía Oculta",
-  "Tecnología de Control",
+  "Sociedad",
+  "Religión y Espiritualidad",
+  "Economía",
   "Medios y Propaganda"
 ];
