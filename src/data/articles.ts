@@ -47,6 +47,11 @@ El sitio presenta un modelo visual contundente: una pirámide invertida donde:
 **En la punta (el nivel más débil):**
 - **La Clase Política**: El nivel más desconectado del pueblo. Una clase servil a los bancos, corporaciones y poderes externos. Sin base real, sin legitimidad genuina.
 
+<div class="my-8">
+  <img src="/images/article-los-de-abajo-piramide.jpg" alt="La pirámide invertida del poder - el verdadero poder está en la base" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">La pirámide invertida: el verdadero poder reside en la base, no en la cúspide</p>
+</div>
+
 ## El Poder Invisible de los que Luchan Cada Día
 
 Uno de los ejes centrales del proyecto es reconocer ese **poder invisible** que sostiene al mundo:
@@ -72,6 +77,11 @@ Espacios de apoyo mutuo donde descubrir fortalezas colectivas y trabajar las deb
 
 ### ✨ Reconocimiento de Valor
 Ayudar a cada persona a **reconocerse como valiosa** y capaz de aportar algo único al mundo, rompiendo con la baja autoestima que el sistema impone.
+
+<div class="my-8">
+  <img src="/images/article-los-de-abajo-comunidad.jpg" alt="Comunidad trabajando junta en solidaridad" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">La fuerza de la comunidad: solidaridad, colaboración y crecimiento colectivo</p>
+</div>
 
 ## El Desarrollo Espiritual desde la Necesidad
 
