@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Eye, BookOpen, TrendingUp } from "lucide-react";
+import { Eye, BookOpen, TrendingUp, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -66,6 +66,15 @@ const Index = () => {
               <Link to="/about">
                 <Button variant="neon" size="lg" className="w-full sm:w-auto">
                   Sobre el Autor
+                </Button>
+              </Link>
+              <Link to="/donate">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto group">
+                  <Heart className="mr-2 text-primary group-hover:text-secondary transition-colors" size={20} />
+                  <div className="flex flex-col items-start">
+                    <span className="font-bold">Dona</span>
+                    <span className="text-xs text-muted-foreground">Ayúdanos a mantener la plataforma</span>
+                  </div>
                 </Button>
               </Link>
             </div>

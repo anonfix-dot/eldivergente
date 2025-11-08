@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Auth from "./pages/Auth";
 import Admin from "./pages/Admin";
+import Donate from "./pages/Donate";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/article/:id" element={<ArticleDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
