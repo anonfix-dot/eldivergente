@@ -172,12 +172,11 @@ export const RTPlayer = () => {
               )}
             </div>
 
-            {/* Info Cards */}
+            {/* Why RT Card - Side */}
             {!isCinemaMode && (
-              <div className="space-y-4">
-                {/* Why RT Card */}
+              <div>
                 <Collapsible open={isExplanationOpen} onOpenChange={setIsExplanationOpen}>
-                  <div className="bg-card/50 border border-primary/20 rounded-lg overflow-hidden glow-box-blue">
+                  <div className="bg-card/50 border border-primary/20 rounded-lg overflow-hidden glow-box-blue h-full">
                     <CollapsibleTrigger asChild>
                       <button className="w-full p-4 flex items-center justify-between text-left hover:bg-primary/5 transition-colors">
                         <h3 className="font-heading text-lg font-bold text-primary">¿Por qué elegimos RT?</h3>
@@ -197,47 +196,51 @@ export const RTPlayer = () => {
                     </CollapsibleContent>
                   </div>
                 </Collapsible>
-
-                {/* Comparison Table Card */}
-                <Collapsible open={isComparisonOpen} onOpenChange={setIsComparisonOpen}>
-                  <div className="bg-card/50 border border-secondary/20 rounded-lg overflow-hidden glow-box-violet">
-                    <CollapsibleTrigger asChild>
-                      <button className="w-full p-4 flex items-center justify-between text-left hover:bg-secondary/5 transition-colors">
-                        <h3 className="font-heading text-lg font-bold text-secondary">Comparativa de Medios</h3>
-                        {isComparisonOpen ? (
-                          <ChevronUp className="text-secondary" size={20} />
-                        ) : (
-                          <ChevronDown className="text-secondary" size={20} />
-                        )}
-                      </button>
-                    </CollapsibleTrigger>
-                    <CollapsibleContent>
-                      <div className="px-4 pb-4 overflow-x-auto">
-                        <table className="w-full text-xs">
-                          <thead>
-                            <tr className="border-b border-border/50">
-                              <th className="text-left py-2 pr-2 text-foreground font-semibold">Área</th>
-                              <th className="text-left py-2 px-2 text-primary font-semibold">RT</th>
-                              <th className="text-left py-2 pl-2 text-secondary font-semibold">Medios Occidentales</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {comparisonData.map((row, index) => (
-                              <tr key={index} className="border-b border-border/30 last:border-0">
-                                <td className="py-2 pr-2 text-foreground font-medium">{row.area}</td>
-                                <td className="py-2 px-2 text-muted-foreground">{row.rt}</td>
-                                <td className="py-2 pl-2 text-muted-foreground">{row.occidental}</td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    </CollapsibleContent>
-                  </div>
-                </Collapsible>
               </div>
             )}
           </div>
+
+          {/* Comparison Table - Below Player - Horizontal */}
+          {!isCinemaMode && (
+            <div className="mt-8">
+              <Collapsible open={isComparisonOpen} onOpenChange={setIsComparisonOpen}>
+                <div className="bg-card/50 border border-secondary/20 rounded-lg overflow-hidden glow-box-violet">
+                  <CollapsibleTrigger asChild>
+                    <button className="w-full p-4 flex items-center justify-between text-left hover:bg-secondary/5 transition-colors">
+                      <h3 className="font-heading text-xl font-bold text-secondary">Comparativa de Medios</h3>
+                      {isComparisonOpen ? (
+                        <ChevronUp className="text-secondary" size={20} />
+                      ) : (
+                        <ChevronDown className="text-secondary" size={20} />
+                      )}
+                    </button>
+                  </CollapsibleTrigger>
+                  <CollapsibleContent>
+                    <div className="px-6 pb-6 overflow-x-auto">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="border-b border-border/50">
+                            <th className="text-left py-3 pr-4 text-foreground font-semibold w-1/5">Área</th>
+                            <th className="text-left py-3 px-4 text-primary font-semibold w-2/5">RT</th>
+                            <th className="text-left py-3 pl-4 text-secondary font-semibold w-2/5">Medios Occidentales</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {comparisonData.map((row, index) => (
+                            <tr key={index} className="border-b border-border/30 last:border-0 hover:bg-muted/20 transition-colors">
+                              <td className="py-3 pr-4 text-foreground font-medium">{row.area}</td>
+                              <td className="py-3 px-4 text-muted-foreground">{row.rt}</td>
+                              <td className="py-3 pl-4 text-muted-foreground">{row.occidental}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </CollapsibleContent>
+                </div>
+              </Collapsible>
+            </div>
+          )}
         </div>
       </div>
     </section>
