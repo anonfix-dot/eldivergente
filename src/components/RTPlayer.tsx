@@ -190,7 +190,7 @@ export const RTPlayer = () => {
                     <CollapsibleContent>
                       <div className="px-4 pb-4">
                         <p className="text-sm text-muted-foreground leading-relaxed">
-                          Porque aunque el medio RT esté dirigido por el estado ruso, entendemos que Rusia históricamente no ha sido nunca un país invasor. Con respecto a Ucrania, muchos ciudadanos ucranianos decidieron por votación ser parte de Rusia, pero allí comenzó el conflicto y posterior la invasión rusa. Creemos que RT tiene una visión más limpia, en cambio los medios privados occidentales están muy influenciados por el gobierno de EEUU y la OTAN produciendo narrativas anti rusas, anti China, sobretodo con la expansión de la OTAN hacia la frontera rusa.
+                          Si bien RT es un medio financiado por el Estado ruso, consideramos pertinente ofrecer esta perspectiva como contrapunto informativo. Desde nuestra posición editorial, observamos que los principales medios occidentales suelen presentar una cobertura alineada con los intereses geopolíticos de EE.UU. y la OTAN, especialmente en temas como el conflicto en Ucrania y las relaciones con Rusia y China. Incluir RT permite a nuestra audiencia acceder a narrativas alternativas y formar criterios propios mediante el contraste de fuentes diversas.
                         </p>
                       </div>
                     </CollapsibleContent>
