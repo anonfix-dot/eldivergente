@@ -13,6 +13,216 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "crisis-afa-privatizacion-futbol",
+    title: "Caos en la AFA: ¿crisis real o ingeniería para privatizar el fútbol argentino?",
+    excerpt: "La crisis actual en la AFA no puede entenderse como una suma de escándalos aislados. Cambios de reglamento, sanciones desmedidas y trofeos cuestionados parecen responder a un guion más profundo: la lógica problema–reacción–solución para impulsar la privatización del fútbol.",
+    content: `
+## Introducción
+
+En Argentina el fútbol nunca es sólo fútbol. Es identidad, territorio simbólico y, cada vez más, **un campo de disputa económica y política** donde se juegan intereses que exceden por mucho los 90 minutos. La crisis actual en la Asociación del Fútbol Argentino (AFA) no puede entenderse únicamente como una suma de escándalos aislados: cambios de reglamento, sanciones desmedidas, peleas mediáticas y trofeos inventados. Leída en conjunto, **parece responder a un guion más profundo**.
+
+<div class="my-8">
+  <img src="/images/article-afa-crisis.png" alt="El fútbol argentino bajo el control de intereses corporativos" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">Vista simbólica del fútbol argentino bajo la presión de intereses corporativos y financieros</p>
+</div>
+
+En este contexto, la hipótesis de que se está aplicando la lógica **"problema–reacción–solución"** cobra fuerza: se construye un caos visible, se fomenta el hartazgo social y, finalmente, se presenta la privatización del fútbol como la única salida "racional" posible. No se trata de negar los hechos —los problemas existen— sino de preguntarse **cómo se ordenan, se amplifican y se utilizan políticamente**.
+
+---
+
+## 1. La crisis fabricada: cuando las reglas cambian a mitad del partido
+
+El punto de inflexión reciente se da con el polémico título otorgado a Rosario Central. La AFA decide que el campeón no saldrá de un formato tradicional, sino de la suma de puntos entre Apertura y Clausura. **Lo grave no es sólo el criterio elegido**, sino la percepción de que se cambió la regla con el torneo ya avanzado, alterando de facto el valor deportivo de cada partido.
+
+Rosario Central, con **Ángel Di María** como gran emblema, se queda con un campeonato históricamente discutible: no ganó ni un torneo clásico, pero es coronado campeón nacional. Para una parte importante del mundo del fútbol, eso huele más a **"diseño" que a mérito deportivo**. La sensación de "trofeo armado" no surge sólo de la bronca rival; se nutre de una larga historia de decisiones opacas en la AFA y de un contexto de enfrentamiento con el gobierno nacional.
+
+> *"Las reglas del juego cambiaron cuando el partido ya había empezado. Eso no es fútbol, es un guion escrito desde afuera."*
+
+---
+
+## 2. El "Pasillo Gate": rebelión, castigo ejemplar y mensaje al sistema
+
+En ese clima, **Estudiantes de La Plata** decide hacer lo que casi nadie se anima: exponer su disconformidad en la cancha. Sus jugadores realizan el tradicional pasillo de honor a Rosario Central… pero **de espaldas**. Es un gesto claro: *"no reconocemos la legitimidad de este título"*.
+
+La respuesta de la AFA es inmediata y brutal:
+
+- **Seis meses de suspensión para Juan Sebastián Verón** como presidente del club
+- **Dos fechas de sanción** para todos los futbolistas involucrados
+- **Multas económicas** y un fallo disciplinario redactado casi como escarmiento público
+
+El mensaje hacia el resto de los clubes es inequívoco: **cualquier intento de impugnar el orden establecido será castigado con dureza**.
+
+Esta desproporción en las sanciones no es casual. En un sistema donde se busca normalizar el caos, quienes osan cuestionar el relato oficial deben ser disciplinados públicamente. El caso Verón funciona como advertencia: *"pueden criticar en privado, pero no en la cancha"*.
+
+---
+
+## 3. Verón, Di María y el peso simbólico de las figuras
+
+En esta trama aparecen dos figuras centrales, no sólo por lo que hacen, sino por lo que representan.
+
+Por un lado, **Juan Sebastián Verón**, dirigente que se anima a desafiar públicamente a la AFA. Su sanción no es sólo una penalidad administrativa: es un golpe simbólico contra cualquier voz disidente dentro del sistema dirigencial.
+
+Por otro lado, **Ángel Di María**, ídolo y campeón del mundo, celebrando el cuestionado título de Rosario Central. Su presencia opera como **capital simbólico**: si un ídolo avala el campeonato, ¿cómo podría ser ilegítimo?
+
+El sistema usa estas figuras como **"moduladores emocionales"** para amortiguar el malestar social. La imagen de Di María levantando un trofeo tiene más peso mediático que cualquier análisis crítico sobre cómo se otorgó ese título.
+
+> *"Cuando los ídolos validan el sistema, la resistencia se vuelve más difícil. El pueblo ama a sus figuras, y el poder lo sabe."*
+
+---
+
+## 4. Del caos deportivo al hartazgo social: la fase de la "reacción"
+
+A medida que estas escenas se multiplican, la narrativa dominante crece:
+
+- *"La AFA es un quilombo"*
+- *"La corrupción es total"*
+- *"Los arbitrajes están arreglados"*
+- *"No hay manera de que esto funcione así"*
+
+El efecto es **psicológico**: cuando la credibilidad se derrumba, la sociedad empieza a pedir "orden", incluso si ese orden viene desde arriba y con costo institucional.
+
+Esta es la fase de la **"reacción"** en el esquema clásico. El caos generado —o al menos amplificado— produce un hartazgo colectivo que prepara el terreno para aceptar soluciones que, en otras circunstancias, serían rechazadas.
+
+La prensa deportiva, lejos de analizar el origen estructural de los problemas, se limita a repetir el escándalo del día, alimentando el ciclo de indignación sin ofrecer alternativas. **El ciudadano queda atrapado entre la bronca y la impotencia**.
+
+---
+
+## 5. El proyecto privatizador: la "solución" que estaba esperando su momento
+
+En paralelo a este caos deportivo, el gobierno de **Javier Milei** impulsa activamente la conversión de clubes en **Sociedades Anónimas Deportivas (SAD)**. El timing no es coincidencia: el caos vuelve más vendible la idea de que "el modelo actual fracasó".
+
+El discurso oficial habla de:
+
+- **"Modernización"** del fútbol argentino
+- **"Eficiencia empresarial"** frente al "amateurismo dirigencial"
+- **"Inversión extranjera"** para mejorar infraestructura
+- **"Fin de la corrupción"** mediante gestión privada
+
+Los clubes, por su parte, denuncian:
+
+- **Pérdida de identidad** comunitaria
+- **Mercantilización** del deporte popular
+- **Riesgo de vaciamiento** patrimonial
+- **Concentración** del poder en manos de capitales extranjeros
+
+La privatización se presenta como la "solución racional" a un problema que, en buena medida, **fue construido o al menos permitido** para justificar precisamente esa salida.
+
+---
+
+## 6. ¿Quién gana con la privatización del fútbol?
+
+Ante este escenario, es necesario hacer preguntas clave que rara vez aparecen en el debate público:
+
+- **¿Quién compra clubes en países en crisis económica?**
+- **¿Qué grupos de inversión aparecen filtrados en los medios?**
+- **¿Qué pasó en otros países cuando entraron fondos de inversión al fútbol?**
+- **¿Quiénes son los verdaderos beneficiarios del modelo SAD?**
+
+La experiencia internacional muestra patrones claros:
+
+| **País** | **Modelo** | **Resultado** |
+|----------|------------|---------------|
+| Inglaterra | SAD (desde los 80) | Concentración en oligarcas y fondos extranjeros |
+| España | SAD (desde 1990) | Deudas millonarias, clubes en quiebra |
+| Italia | SAD | Clubes históricos vendidos a capitales árabes y estadounidenses |
+| Chile | SAD | Pérdida de identidad, hinchas marginados de decisiones |
+
+Los clubes pueden ganar infraestructura, pero también pueden **perder control social, identidad barrial y vínculo comunitario**. El socio deja de ser dueño para convertirse en consumidor.
+
+---
+
+## 7. ¿La AFA resiste… o también juega su juego?
+
+La AFA no es víctima inocente en este escenario. Parte del caos actual proviene de sus propias decisiones:
+
+- **Reglas cambiadas** durante los torneos
+- **Manejos de arbitraje** bajo permanente sospecha
+- **Sanciones selectivas** que parecen responder a intereses políticos
+- **Internas de poder** entre facciones dirigenciales
+- **Opacidad** en la gestión de recursos
+
+Se enfrentan así **dos modelos** que, paradójicamente, pueden terminar siendo funcionales el uno al otro:
+
+**El modelo viejo (asociativo):**
+- Clubes como asociaciones civiles
+- Socios con voz y voto
+- Estructura democrática (con vicios históricos)
+- Identidad barrial y comunitaria
+
+**El modelo nuevo (corporativo):**
+- Clubes como empresas
+- Accionistas con poder según capital invertido
+- Estructura jerárquica-financiera
+- Lógica de rentabilidad sobre identidad
+
+La sociedad queda atrapada en una **falsa elección**: o el caos del modelo actual, o la entrega a capitales privados. Como si no existiera una tercera vía.
+
+---
+
+## 8. Problema–Reacción–Solución: lectura final
+
+El esquema **"Problema–Reacción–Solución"** es una técnica de ingeniería social documentada históricamente. Funciona así:
+
+1. **Problema**: Se crea o se amplifica una crisis (caos en la AFA, reglamentos cambiantes, sanciones arbitrarias)
+
+2. **Reacción**: Se fomenta el hartazgo social (la gente pide "que alguien ponga orden", medios amplifican escándalos)
+
+3. **Solución**: Se presenta como única salida lo que en realidad era el objetivo desde el principio (privatización, SAD, entrada de capitales)
+
+**No es necesariamente una conspiración perfecta**. Puede ser simplemente **un aprovechamiento perfecto de las circunstancias** por parte de quienes tienen intereses en el resultado final.
+
+Lo que sí es claro es que:
+
+- El caos beneficia a quienes proponen la privatización
+- La AFA no parece interesada en reformarse genuinamente
+- Los medios amplifican el problema sin analizar las alternativas
+- El gobierno tiene una agenda clara respecto a las SAD
+
+---
+
+## Cierre: la tercera vía que nadie menciona
+
+Defender el modelo social de clubes **no implica idealizar la AFA**. Todo lo contrario: exige una **reforma profunda, democrática y transparente** del sistema dirigencial.
+
+Existe una tercera vía entre el caos actual y la privatización:
+
+- **Democratización real** de los clubes (elecciones transparentes, participación de socios)
+- **Auditorías independientes** de las finanzas de AFA y clubes
+- **Reforma de los reglamentos** con participación amplia
+- **Defensa del modelo asociativo** con modernización de gestión
+- **Límites claros** a la injerencia política en el deporte
+
+El fútbol argentino es mucho más que un negocio: es **patrimonio cultural, identidad barrial y pasión popular**. Entregarlo a la lógica del mercado financiero sería perder algo que no se puede comprar de vuelta.
+
+**La pregunta que debemos hacernos no es si la AFA tiene problemas** —los tiene, y graves—, sino **quién se beneficia con que esos problemas no se resuelvan desde adentro**.
+
+Porque cuando la única solución ofrecida coincide exactamente con los intereses de quienes la proponen, es momento de sospechar.
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Análisis editorial de El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#AFA</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#FútbolArgentino</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#SAD</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Privatización</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ProblemaReacciónSolución</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Verón</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DiMaría</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#RosarioCentral</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Estudiantes</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#AnálisisPolítico</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-afa-crisis.png",
+    category: "Política Nacional",
+    date: "2025-12-03",
+    author: "El Divergente"
+  },
+  {
     id: "los-de-abajo-proyecto-poder-popular",
     title: '"Los de Abajo": El Proyecto que Reivindica el Verdadero Poder Popular',
     excerpt: "Un nuevo espacio digital surge para demostrar que el verdadero poder no está arriba, en las élites, sino abajo, en la base donde la gente sostiene con dignidad la estructura de la sociedad. Descubre el proyecto que invierte la pirámide del poder.",
