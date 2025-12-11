@@ -64,6 +64,11 @@ El caso del **aumento de sueldo del 48%** revela el mecanismo narrativo con clar
 
 **El relato es más importante que la realidad.** Lo que importa no es lo que ocurrió, sino cómo se cuenta.
 
+<div class="my-8">
+  <img src="/images/article-mito-milei-dispositivo.jpg" alt="Ciclo del dispositivo narrativo en 4 fases" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El ciclo del dispositivo narrativo: contradicción, deflexión, sacrificio y transformación épica</p>
+</div>
+
 Esta técnica de *"error–victimización–épica"* se repite en múltiples ocasiones y funciona como escudo ante cualquier crítica.
 
 ---
@@ -125,6 +130,11 @@ La separación pública entre Milei y Giacomini produce efectos convenientes par
 - Ninguna revelación daña la estructura de poder
 - La alineación ideológica silenciosa permanece
 - El espectáculo de la pelea distrae del análisis profundo
+
+<div class="my-8">
+  <img src="/images/article-mito-milei-ajedrez.jpg" alt="Piezas de ajedrez representando el dispositivo narrativo" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El tablero del poder: tres piezas que cumplen roles complementarios en un mismo juego</p>
+</div>
 
 ---
 
@@ -207,6 +217,11 @@ El resultado es un **sistema narrativo cerrado** donde:
 - La crítica refuerza al perseguido
 
 **Un mito político autoinmune.**
+
+<div class="my-8">
+  <img src="/images/article-mito-milei-escudo.jpg" alt="Escudo dorado representando el mito autoinmune" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El escudo narrativo: cualquier ataque se convierte en prueba de la victimización</p>
+</div>
 
 ---
 
