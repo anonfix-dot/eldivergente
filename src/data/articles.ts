@@ -13,6 +13,229 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "mito-pobre-milei-triangulo-dispositivo",
+    title: "El mito del pobre Milei: biografía, narrativa y el triángulo Milei–Giacomini–Cúneo como dispositivo político",
+    excerpt: "El ascenso de Javier Milei está sostenido sobre un relato construido meticulosamente: el chico pobre, el genio incomprendido, el maltratado que venció a todos. Pero cuando el relato se confronta con los hechos, aparecen grietas profundas.",
+    content: `
+## Introducción
+
+En la política contemporánea, **la biografía personal dejó de ser un dato anecdótico para convertirse en un arma narrativa**. Javier Milei lo entendió antes que nadie: su ascenso está sostenido sobre un relato construido meticulosamente.
+
+La historia del *"chico pobre"*, el *"genio incomprendido"* y el *"maltratado que venció a todos"* funciona como **estructura emocional** para justificar decisiones, blindar críticas y generar empatía.
+
+<div class="my-8">
+  <img src="/images/article-mito-milei-hero.jpg" alt="Político frente a un atril con papeles rotos, simbolizando relato construido" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El relato político como construcción narrativa: cuando la biografía se convierte en arma</p>
+</div>
+
+Pero cuando el relato se confronta con los hechos, aparecen **grietas profundas**. Y cuando sumamos las versiones de su ex socio Diego Giacomini y el rol del enigmático Santiago Cúneo, la narrativa se complejiza aún más.
+
+Este artículo desarrolla una hipótesis profunda:
+
+> **Milei, Giacomini y Cúneo podrían funcionar como partes de un mismo dispositivo narrativo, ya sea coordinado o espontáneamente convergente.**
+
+---
+
+## 1. El origen humilde que nunca fue
+
+Milei repite que *"no tenía un peso partido al medio"*. Sin embargo, **la evidencia muestra lo contrario**:
+
+- Su familia era de **clase media-alta**, con padre empresario transportista
+- **Educación completamente privada**: colegio, universidad y posgrados
+- **No existen registros** de pobreza real, becas o trabajos que financien la carrera
+- Acceso a redes y oportunidades que la verdadera pobreza no permite
+
+<div class="my-8">
+  <img src="/images/article-mito-milei-universidad.jpg" alt="Universidad privada iluminada" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">La educación de élite: un privilegio que contradice el relato de pobreza</p>
+</div>
+
+Este relato emocional cumple una función clave: **construir un mito meritocrático útil para su identidad política**.
+
+El *"pobre que llegó"* conecta emocionalmente con millones de argentinos que realmente conocen la pobreza. Pero cuando ese relato proviene de alguien que **nunca la experimentó**, se convierte en apropiación narrativa.
+
+---
+
+## 2. El presidente que "se sacrifica": discurso vs realidad
+
+El caso del **aumento de sueldo del 48%** revela el mecanismo narrativo con claridad:
+
+| **Fase** | **Acción** | **Efecto** |
+|----------|------------|------------|
+| 1 | Se genera una contradicción | El presidente "austero" se aumenta el sueldo |
+| 2 | Se culpa a terceros | "Me aumentaron sin que yo lo pidiera" |
+| 3 | Se renuncia al aumento | Gesto público de "sacrificio" |
+| 4 | Se convierte el error en épica | "Soy el único que renunció a su aumento" |
+
+**El relato es más importante que la realidad.** Lo que importa no es lo que ocurrió, sino cómo se cuenta.
+
+Esta técnica de *"error–victimización–épica"* se repite en múltiples ocasiones y funciona como escudo ante cualquier crítica.
+
+---
+
+## 3. El dispositivo emocional del héroe-víctima
+
+Milei explota sistemáticamente **tres ejes psicológicos**:
+
+### Victimización constante
+*"Todos me atacan"*, *"la casta me persigue"*, *"los medios mienten sobre mí"*. La victimización genera empatía automática y desactiva el pensamiento crítico.
+
+### Soledad épica
+*"Estoy solo contra todos"*, *"nadie me ayuda"*, *"cargo con todo el peso"*. El héroe solitario es una figura arquetípica que conecta con imaginarios profundos.
+
+### Sacrificio personal forzado
+*"No duermo"*, *"doy todo por ustedes"*, *"mi salud se deteriora"*. El sacrificio genera deuda emocional en el receptor del mensaje.
+
+<div class="my-8">
+  <img src="/images/article-mito-milei-heroe.jpg" alt="Figura política iluminada rodeada de sombras" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El arquetipo del héroe-víctima: iluminado desde abajo, rodeado de adversarios</p>
+</div>
+
+Esta combinación genera **empatía masiva** y funciona como **blindaje moral**: criticar a quien "sufre tanto" se vuelve casi cruel.
+
+---
+
+## 4. La versión de Giacomini: ¿confesión o parte del guion?
+
+Diego Giacomini, **ex socio y co-autor del proyecto económico original**, rompió públicamente con Milei y reveló episodios de ira, traumas y supuesta inestabilidad emocional.
+
+Pero analicemos qué reveló realmente:
+
+- **Episodios de ira descontrolada** → Humaniza, no destruye
+- **Traumas de infancia** → Genera compasión
+- **Fragilidad emocional** → Refuerza el relato del "genio atormentado"
+- **Ruptura personal** → Distancia a Giacomini del proyecto sin dañarlo
+
+> *¿Notaron que nunca reveló nada que destruya su figura política?*
+
+Solo aportó elementos que **refuerzan la narrativa mileísta del héroe herido**. La ruptura no lo perjudica: **lo humaniza**.
+
+---
+
+## 5. Una pelea sospechosamente funcional
+
+La separación pública entre Milei y Giacomini produce efectos convenientes para ambos:
+
+**Para Giacomini:**
+- Limpia su imagen de responsabilidad política
+- Lo posiciona como "el que sabía la verdad"
+- Le permite criticar sin quedar asociado a los fracasos
+
+**Para Milei:**
+- Refuerza la imagen del líder solitario
+- "Traicionado" por quienes lo rodeaban
+- Mantiene el relato del héroe incomprendido
+
+**Para el sistema narrativo:**
+- Ninguna revelación daña la estructura de poder
+- La alineación ideológica silenciosa permanece
+- El espectáculo de la pelea distrae del análisis profundo
+
+---
+
+## 6. El rol de Santiago Cúneo: ¿oposición real o contención?
+
+Santiago Cúneo se presenta como **opositor absoluto** de Milei. Sin embargo, su función merece análisis:
+
+### Lo que dice:
+- Milei es un títere del poder financiero
+- El gobierno es una estafa
+- El sistema está podrido
+
+### Lo que produce:
+- Instala la idea de que Milei *"está enfermo"* → **Lo exonera moralmente**
+- Contiene a los indignados en un canal discursivo **sin acción política real**
+- Incorpora a Giacomini a su espacio **sin contradicciones claras**
+
+La pregunta incómoda:
+
+> **¿Por qué un nacionalista autoproclamado integraría a un economista liberal ortodoxo?**
+
+Si Giacomini fue co-responsable del diseño económico que Cúneo critica, ¿cómo pueden compartir espacio sin explicar esa contradicción?
+
+---
+
+## 7. El triángulo Milei–Giacomini–Cúneo como dispositivo
+
+Cada uno cumple una **función narrativa** específica:
+
+<div class="my-8">
+  <img src="/images/article-mito-milei-triangulo.jpg" alt="Triángulo simbólico conectando tres figuras políticas" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El triángulo del dispositivo: tres actores, un mismo mito sostenido</p>
+</div>
+
+| **Actor** | **Función** | **Efecto** |
+|-----------|-------------|------------|
+| **Milei** | Héroe-víctima | Genera adhesión emocional |
+| **Giacomini** | Confirma trauma y fragilidad | Humaniza y genera compasión |
+| **Cúneo** | Absorbe bronca opositora | Canaliza sin transformar |
+
+La suma refuerza un **único mito central**:
+
+> *"Milei no es responsable, Milei sufre, Milei está herido o enfermo."*
+
+Esto es **invaluable** en un contexto de crisis donde las decisiones políticas generan daño concreto.
+
+---
+
+## 8. El personaje del "Milei enfermo"
+
+El concepto de que *"Milei está enfermo"* —ya sea psicológicamente, emocionalmente o como sea— produce un efecto político notable:
+
+**Aceptar que Milei "está enfermo" lo vuelve inocente ante la opinión pública.**
+
+- Los daños económicos → "No es su culpa, está enfermo"
+- Las decisiones erráticas → "Es su condición"
+- Las contradicciones → "Es parte de su patología"
+
+Es una **coartada perfecta**: cualquier daño ocasionado pasa a ser consecuencia de su condición, no de sus decisiones conscientes y políticas.
+
+---
+
+## Conclusión
+
+El análisis integrado del relato de pobreza, las contradicciones de gestión, la versión emocional de Giacomini, la oposición discursiva de Cúneo y la construcción del héroe-víctima-enfermo permiten plantear una lectura más profunda:
+
+> **Más que individuos aislados, estamos viendo piezas narrativas que convergen en un mismo dispositivo emocional-político que sostiene al proyecto mileísta.**
+
+No se necesita coordinación explícita. **Alcanza con que cada uno cumpla un rol funcional dentro del mito.**
+
+El dispositivo opera porque:
+
+- **Milei** atrae emocionalmente
+- **Giacomini** confirma la humanidad sufriente
+- **Cúneo** contiene la bronca sin transformarla en acción
+
+El resultado es un **sistema narrativo cerrado** donde:
+- El éxito refuerza al héroe
+- El fracaso refuerza a la víctima
+- La crítica refuerza al perseguido
+
+**Un mito político autoinmune.**
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Análisis editorial de El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Milei</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Giacomini</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Cúneo</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DispositivoPolítico</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#NarrativaPolítica</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#AnálisisCrítico</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#PoliticaArgentina</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#MitoMeritocrático</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-mito-milei-hero.jpg",
+    category: "Política Nacional",
+    date: "2025-12-11",
+    author: "El Divergente"
+  },
+  {
     id: "crisis-afa-privatizacion-futbol",
     title: "Caos en la AFA: ¿crisis real o ingeniería para privatizar el fútbol argentino?",
     excerpt: "La crisis actual en la AFA no puede entenderse como una suma de escándalos aislados. Cambios de reglamento, sanciones desmedidas y trofeos cuestionados parecen responder a un guion más profundo: la lógica problema–reacción–solución para impulsar la privatización del fútbol.",
