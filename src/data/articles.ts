@@ -23,11 +23,6 @@ En la política contemporánea, **la biografía personal dejó de ser un dato an
 
 La historia del *"chico pobre"*, el *"genio incomprendido"* y el *"maltratado que venció a todos"* funciona como **estructura emocional** para justificar decisiones, blindar críticas y generar empatía.
 
-<div class="my-8">
-  <img src="/images/article-mito-milei-hero.jpg" alt="Político frente a un atril con papeles rotos, simbolizando relato construido" class="w-full rounded-lg shadow-lg" />
-  <p class="text-sm text-muted-foreground text-center mt-2 italic">El relato político como construcción narrativa: cuando la biografía se convierte en arma</p>
-</div>
-
 Pero cuando el relato se confronta con los hechos, aparecen **grietas profundas**. Y cuando sumamos las versiones de su ex socio Diego Giacomini y el rol del enigmático Santiago Cúneo, la narrativa se complejiza aún más.
 
 Este artículo desarrolla una hipótesis profunda:
