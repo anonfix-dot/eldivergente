@@ -18,32 +18,8 @@ const cryptoAddresses: CryptoAddress[] = [
   {
     name: "USDT",
     network: "BEP20 (Binance Smart Chain)",
-    address: "0x1234567890abcdef1234567890abcdef12345678",
+    address: "0x448cb09417657e10c425eb52150Cc8854D3BD2CF",
     icon: "₮"
-  },
-  {
-    name: "Solana",
-    network: "Solana Network",
-    address: "SoL1234567890abcdefghijklmnopqrstuvwxyz",
-    icon: "◎"
-  },
-  {
-    name: "Bitcoin",
-    network: "Lightning Network",
-    address: "lnbc1234567890abcdefghijklmnopqrstuvwxyz",
-    icon: "₿"
-  },
-  {
-    name: "Bitcoin",
-    network: "BEP20 (Binance Smart Chain)",
-    address: "0xabcdef1234567890abcdef1234567890abcdef12",
-    icon: "₿"
-  },
-  {
-    name: "Monero",
-    network: "Monero Network",
-    address: "4abcdef1234567890abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmno",
-    icon: "ɱ"
   }
 ];
 
