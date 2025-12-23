@@ -13,6 +13,158 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "estado-herramienta-transferencia-riqueza",
+    title: "El Estado como herramienta de transferencia de riqueza: quién gana y quién pierde",
+    excerpt: "La discusión política en Argentina suele reducirse a consignas simplistas. Este artículo propone una lectura estructural: no todos los votantes actúan desde la desinformación, sino que muchos lo hacen desde intereses materiales concretos.",
+    content: `
+<div class="mb-8 p-4 bg-primary/10 border border-primary/30 rounded-lg">
+  <p class="text-sm font-medium mb-2">🎧 Escuchar este artículo en podcast:</p>
+  <audio controls class="w-full">
+    <source src="/audio/podcast-estructura-economica-argentina.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+</div>
+
+## Introducción
+
+La discusión política en Argentina suele reducirse a consignas simplistas: ignorancia, fanatismo, corrupción, populismo o liberalismo. Sin embargo, estas explicaciones son insuficientes para comprender por qué ciertos modelos económicos se repiten, incluso después de haber generado crisis profundas como la de 2001.
+
+El problema no es únicamente el gobierno de turno, sino la **estructura social**, los **incentivos económicos** y las **alianzas de clase** que sostienen determinados proyectos políticos.
+
+Este artículo propone una lectura estructural: **no todos los votantes actúan desde la desinformación**, sino que muchos lo hacen desde intereses materiales concretos.
+
+---
+
+## El Estado como herramienta: dos usos opuestos
+
+Una de las falacias más frecuentes es la idea de que quienes apoyan políticas de ajuste *"quieren menos Estado"*. En la práctica, **no buscan un Estado débil, sino un Estado funcional a sus intereses**.
+
+<div class="my-8">
+  <img src="/images/article-estado-herramienta-balanza.jpg" alt="Balanza del Estado: finanzas vs pueblo" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El Estado como balanza desequilibrada: prioridades financieras vs necesidades sociales</p>
+</div>
+
+### Estado fuerte para:
+- Garantizar pagos de deuda
+- Sostener el sistema financiero
+- Socializar pérdidas privadas
+
+### Estado débil para:
+- Salarios
+- Infraestructura productiva
+- Salud, educación y seguridad
+- Protección del empleo
+
+> **No se trata de "Estado sí o no", sino de para quién trabaja el Estado.**
+
+---
+
+## Ajuste, devaluación e inflación: mecanismos de transferencia
+
+Las políticas de ajuste no son errores técnicos ni consecuencias inevitables. Funcionan como **mecanismos deliberados de transferencia de ingresos**:
+
+- La **devaluación** licúa salarios y jubilaciones
+- La **inflación** reduce el poder adquisitivo
+- El **aumento de tarifas** encarece la vida cotidiana
+
+El endeudamiento no se dirige a inversión productiva, sino a:
+- Colocaciones financieras
+- Fuga de capitales
+- Rendimientos especulativos
+
+<div class="my-8">
+  <img src="/images/article-transferencia-riqueza.jpg" alt="Transferencia de riqueza hacia arriba" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El mecanismo de transferencia: la riqueza fluye hacia arriba mientras el pueblo queda abajo</p>
+</div>
+
+Mientras tanto, los costos se trasladan de forma sistemática a:
+- Sectores populares
+- Clase media
+- Pymes y economía real
+
+**Este esquema no es accidental: es rentable para una minoría.**
+
+---
+
+## ¿Ignorancia o racionalidad de clase?
+
+Reducir el voto a la ignorancia es un error analítico y político.
+
+Existe un sector social que comprende perfectamente las consecuencias del ajuste y aun así lo apoya porque:
+
+- Posee **activos dolarizados**
+- Opera en **bonos, acciones o instrumentos financieros**
+- Se beneficia de **tasas altas, recesión y volatilidad**
+
+> **Para estos sectores, la crisis no es un problema: es una oportunidad.**
+
+Cuando una parte de la sociedad empobrece, otra incrementa su rentabilidad.
+
+---
+
+## Deuda externa: la trampa recurrente
+
+Cada ciclo de endeudamiento reproduce el mismo patrón:
+
+1. Ingreso masivo de capital financiero
+2. Ganancias extraordinarias a corto plazo
+3. Fuga de divisas
+4. Ajuste fiscal
+5. Empobrecimiento estructural
+
+**La deuda no financia desarrollo**: financia la especulación, mientras el repago se impone mediante recortes, impuestos regresivos y pérdida de derechos.
+
+---
+
+## Fractura social y deterioro democrático
+
+Este modelo genera algo más grave que pobreza económica: **produce ruptura del tejido social**.
+
+<div class="my-8">
+  <img src="/images/article-fractura-social.jpg" alt="Fractura social en Argentina" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">La fractura social: un puente roto entre dos mundos unidos por cadenas de deuda</p>
+</div>
+
+- Desconfianza entre sectores
+- Individualismo defensivo
+- Naturalización del empobrecimiento ajeno
+- Cinismo político
+
+**Cuando una parte de la sociedad acepta mejorar su posición a costa del deterioro del resto, la democracia se vacía de contenido solidario y se convierte en una competencia de supervivencia.**
+
+---
+
+## Conclusión
+
+El problema argentino no es solo económico ni exclusivamente político: **es estructural y social**.
+
+Mientras no se discuta **quién gana y quién pierde** con cada modelo, el debate seguirá atrapado en slogans vacíos.
+
+No se trata de buenos o malos, ignorantes o ilustrados, sino de **intereses concretos en conflicto**.
+
+> **Comprender esto es el primer paso para cualquier proyecto que aspire a una economía productiva, inclusiva y socialmente sostenible.**
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Análisis editorial de El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#EstructuraEconómica</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#TransferenciaDeRiqueza</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DeudaExterna</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#AjusteEconómico</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DesigualdadSocial</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ArgentinaPolítica</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-estructura-economica-argentina.png",
+    category: "Política",
+    date: "2025-12-23",
+    author: "El Divergente"
+  },
+  {
     id: "mito-pobre-milei-triangulo-dispositivo",
     title: "El mito del pobre Milei: biografía, narrativa y el triángulo Milei–Giacomini–Cúneo como dispositivo político",
     excerpt: "El ascenso de Javier Milei está sostenido sobre un relato construido meticulosamente: el chico pobre, el genio incomprendido, el maltratado que venció a todos. Pero cuando el relato se confronta con los hechos, aparecen grietas profundas.",
