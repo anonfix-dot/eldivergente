@@ -169,6 +169,14 @@ No se trata de buenos o malos, ignorantes o ilustrados, sino de **intereses conc
     title: "El mito del pobre Milei: biografía, narrativa y el triángulo Milei–Giacomini–Cúneo como dispositivo político",
     excerpt: "El ascenso de Javier Milei está sostenido sobre un relato construido meticulosamente: el chico pobre, el genio incomprendido, el maltratado que venció a todos. Pero cuando el relato se confronta con los hechos, aparecen grietas profundas.",
     content: `
+<div class="mb-8 p-4 bg-primary/10 border border-primary/30 rounded-lg">
+  <p class="text-sm font-medium mb-2">🎧 Escuchar este artículo en podcast:</p>
+  <audio controls class="w-full">
+    <source src="/audio/podcast-mito-milei.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+</div>
+
 ## Introducción
 
 En la política contemporánea, **la biografía personal dejó de ser un dato anecdótico para convertirse en un arma narrativa**. Javier Milei lo entendió antes que nadie: su ascenso está sostenido sobre un relato construido meticulosamente.
