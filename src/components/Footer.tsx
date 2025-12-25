@@ -6,18 +6,18 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-muted/30 border-t border-primary/10 mt-20">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-muted/30 border-t border-primary/10 mt-12 sm:mt-20">
+      <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {/* Brand */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <img src={logo} alt="El Divergente" className="h-10 w-10 object-contain" />
-              <span className="text-xl font-heading font-bold glow-blue">
+          <div className="space-y-3 sm:space-y-4 sm:col-span-2 md:col-span-1">
+            <div className="flex items-center gap-2 sm:gap-3">
+              <img src={logo} alt="El Divergente" className="h-8 w-8 sm:h-10 sm:w-10 object-contain" />
+              <span className="text-lg sm:text-xl font-heading font-bold glow-blue">
                 EL <span className="text-secondary glow-violet">DIVERGENTE</span>
               </span>
             </div>
-            <p className="text-sm text-muted-foreground max-w-xs">
+            <p className="text-xs sm:text-sm text-muted-foreground max-w-xs">
               Análisis independiente de conspiraciones, geopolítica global y los hilos ocultos que mueven el mundo.
             </p>
           </div>
@@ -91,7 +91,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary/10 mt-8 pt-8 text-center text-sm text-muted-foreground">
+        <div className="border-t border-primary/10 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-muted-foreground">
           <p>© {currentYear} El Divergente. Todos los derechos reservados.</p>
           <p className="mt-2">
             <Link to="/privacy" className="hover:text-primary transition-colors">

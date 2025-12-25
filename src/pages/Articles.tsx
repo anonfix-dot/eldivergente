@@ -19,27 +19,28 @@ const Articles = () => {
       <Header />
 
       {/* Hero */}
-      <section className="pt-32 pb-16 px-4 bg-gradient-to-b from-muted/20 to-background">
+      <section className="pt-24 sm:pt-32 pb-12 sm:pb-16 px-4 sm:px-6 bg-gradient-to-b from-muted/20 to-background">
         <div className="container mx-auto text-center">
-          <h1 className="font-heading text-4xl md:text-6xl font-bold mb-6 glow-blue">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 glow-blue">
             Artículos
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm sm:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
             Análisis profundo y revelador sobre geopolítica, sociedades secretas, economía oculta y más.
           </p>
         </div>
       </section>
 
       {/* Categories Filter */}
-      <section className="py-8 px-4 border-y border-primary/20">
+      <section className="py-6 sm:py-8 px-4 border-y border-primary/20 overflow-x-auto">
         <div className="container mx-auto">
-          <div className="flex flex-wrap gap-3 justify-center">
+          <div className="flex flex-wrap gap-2 sm:gap-3 justify-center">
             {categories.map((category) => (
               <Button
                 key={category}
                 variant={selectedCategory === category ? "default" : "outline"}
                 onClick={() => setSelectedCategory(category)}
-                className="transition-all"
+                className="transition-all text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2"
+                size="sm"
               >
                 {category}
               </Button>

@@ -33,9 +33,9 @@ export const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <img src={logo} alt="El Divergente" className="h-10 w-10 object-contain" />
-            <span className="text-2xl font-heading font-bold glow-blue">
+          <Link to="/" className="flex items-center gap-2 sm:gap-3 group">
+            <img src={logo} alt="El Divergente" className="h-8 w-8 sm:h-10 sm:w-10 object-contain" />
+            <span className="text-lg sm:text-2xl font-heading font-bold glow-blue">
               EL <span className="text-secondary glow-violet">DIVERGENTE</span>
             </span>
           </Link>
