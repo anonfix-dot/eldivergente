@@ -51,22 +51,21 @@ const Donate = () => {
 
       {/* Hero Section */}
       <section
-        className="relative min-h-[60vh] flex items-center justify-center particles-bg"
+        className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center justify-center particles-bg pt-20 md:pt-0"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.9)), url(${donateHero})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundAttachment: "fixed",
         }}
       >
-        <div className="container mx-auto px-4 text-center z-10 animate-fade-in">
+        <div className="container mx-auto px-4 sm:px-6 text-center z-10 animate-fade-in">
           <div className="max-w-4xl mx-auto">
-            <Heart className="text-primary mx-auto mb-6 glow-blue" size={64} />
-            <h1 className="font-heading text-4xl md:text-6xl font-bold mb-6 glow-blue">
+            <Heart className="text-primary mx-auto mb-4 sm:mb-6 glow-blue" size={48} />
+            <h1 className="font-heading text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 glow-blue">
               Apoya a <span className="text-secondary glow-violet">EL DIVERGENTE</span>
             </h1>
             
-            <p className="text-lg md:text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-sm sm:text-lg md:text-xl mb-6 sm:mb-8 text-muted-foreground max-w-2xl mx-auto px-2">
               Tu contribución nos ayuda a mantener el periodismo independiente y libre de censura
             </p>
           </div>
@@ -178,20 +177,20 @@ const Donate = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center gap-3 bg-background/50 p-3 rounded border border-border">
-                  <code className="flex-1 text-sm text-foreground/80 break-all font-mono">
+                <div className="flex items-center gap-2 sm:gap-3 bg-background/50 p-2 sm:p-3 rounded border border-border">
+                  <code className="flex-1 text-[10px] sm:text-sm text-foreground/80 break-all font-mono leading-relaxed">
                     {crypto.address}
                   </code>
                   <Button
                     variant="ghost"
                     size="icon"
                     onClick={() => copyToClipboard(crypto.address, crypto.name)}
-                    className="shrink-0"
+                    className="shrink-0 h-8 w-8 sm:h-10 sm:w-10"
                   >
                     {copiedAddress === crypto.address ? (
-                      <Check className="text-green-500" size={20} />
+                      <Check className="text-green-500" size={16} />
                     ) : (
-                      <Copy className="text-primary" size={20} />
+                      <Copy className="text-primary" size={16} />
                     )}
                   </Button>
                 </div>

@@ -63,7 +63,7 @@ const ArticleDetail = () => {
       <Header />
 
       {/* Article Header */}
-      <article className="pt-32 pb-16 px-4">
+      <article className="pt-24 sm:pt-32 pb-12 sm:pb-16 px-4 sm:px-6">
         <div className="container mx-auto max-w-4xl">
           <Link to="/articles">
             <Button variant="ghost" className="mb-8">
@@ -78,17 +78,17 @@ const ArticleDetail = () => {
             </span>
           </div>
 
-          <h1 className="font-heading text-4xl md:text-5xl font-bold mb-6 glow-blue">
+          <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 glow-blue leading-tight">
             {article.title}
           </h1>
 
-          <div className="flex items-center gap-6 text-muted-foreground mb-8">
+          <div className="flex flex-wrap items-center gap-3 sm:gap-6 text-muted-foreground mb-6 sm:mb-8 text-sm">
             <div className="flex items-center gap-2">
-              <User size={16} />
+              <User size={14} className="sm:w-4 sm:h-4" />
               <span>{article.author}</span>
             </div>
             <div className="flex items-center gap-2">
-              <Calendar size={16} />
+              <Calendar size={14} className="sm:w-4 sm:h-4" />
               <span>{article.date}</span>
             </div>
           </div>
@@ -97,17 +97,17 @@ const ArticleDetail = () => {
             <img src={article.image} alt={article.title} className="w-full h-auto" />
           </div>
 
-          <div className="prose prose-invert prose-lg max-w-none mb-12">
+          <div className="prose prose-invert prose-sm sm:prose-base md:prose-lg max-w-none mb-8 sm:mb-12">
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
               components={{
                 h2: ({ children }) => (
-                  <h2 className="font-heading text-3xl font-bold mt-12 mb-6 text-primary glow-blue">{children}</h2>
+                  <h2 className="font-heading text-xl sm:text-2xl md:text-3xl font-bold mt-8 sm:mt-12 mb-4 sm:mb-6 text-primary glow-blue">{children}</h2>
                 ),
                 h3: ({ children }) => (
-                  <h3 className="font-heading text-2xl font-bold mt-8 mb-4 text-secondary glow-violet">{children}</h3>
+                  <h3 className="font-heading text-lg sm:text-xl md:text-2xl font-bold mt-6 sm:mt-8 mb-3 sm:mb-4 text-secondary glow-violet">{children}</h3>
                 ),
-                p: ({ children }) => <p className="text-foreground/90 mb-6 leading-relaxed">{children}</p>,
+                p: ({ children }) => <p className="text-foreground/90 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">{children}</p>,
               }}
             >
               {article.content}
