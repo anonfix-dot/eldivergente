@@ -17,6 +17,14 @@ export const articles: Article[] = [
     title: "Políticos, influencers y la economía de la estupidez",
     excerpt: "La política dejó de ser un espacio de ideas para convertirse en un espectáculo permanente. La estupidez no es un defecto del sistema: es su producto más rentable.",
     content: `
+<div class="mb-8 p-4 bg-primary/10 border border-primary/30 rounded-lg">
+  <p class="text-sm font-medium mb-2">🎧 Escuchar este artículo en podcast:</p>
+  <audio controls class="w-full">
+    <source src="/audio/podcast-economia-estupidez.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+</div>
+
 ## El espectáculo político como sistema
 
 En los últimos años, la política dejó de ser un espacio de ideas, proyectos o disputas reales por el poder para convertirse en un espectáculo permanente. Lo llamativo no es únicamente el comportamiento ridículo, exagerado o infantil de muchos políticos, sino la forma sistemática en que ese comportamiento es amplificado por influencers, programas de humor y medios, tanto digitales como analógicos. La pregunta central no es si los políticos "son tontos", sino si interpretan deliberadamente un papel funcional a una narrativa mayor.
