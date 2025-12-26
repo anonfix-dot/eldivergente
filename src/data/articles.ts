@@ -13,6 +13,73 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "economia-de-la-estupidez",
+    title: "Políticos, influencers y la economía de la estupidez",
+    excerpt: "La política dejó de ser un espacio de ideas para convertirse en un espectáculo permanente. La estupidez no es un defecto del sistema: es su producto más rentable.",
+    content: `
+## El espectáculo político como sistema
+
+En los últimos años, la política dejó de ser un espacio de ideas, proyectos o disputas reales por el poder para convertirse en un espectáculo permanente. Lo llamativo no es únicamente el comportamiento ridículo, exagerado o infantil de muchos políticos, sino la forma sistemática en que ese comportamiento es amplificado por influencers, programas de humor y medios, tanto digitales como analógicos. La pregunta central no es si los políticos "son tontos", sino si interpretan deliberadamente un papel funcional a una narrativa mayor.
+
+<div class="my-8">
+  <img src="/images/article-economia-estupidez-1.jpg" alt="El titiritero del show político" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El político como marioneta: detrás del show, alguien mueve los hilos</p>
+</div>
+
+---
+
+## La estupidez como herramienta de diseño
+
+Nada de esto es espontáneo. La política contemporánea está atravesada por consultores, coaches, psicólogos sociales, expertos en marketing político y estructuras de análisis de comportamiento. Estos actores diseñan personajes, gestos, frases y escándalos. En ese contexto, el político que parece torpe, contradictorio o absurdo no es una anomalía: **es un producto comunicacional**. La estupidez se vuelve una herramienta, no un defecto.
+
+Aquí entran los influencers, ya sean oficialistas u opositores. La clave no está en su postura ideológica, sino en su función dentro del sistema. Aunque se presenten como críticos, burlones o "anti-sistema", terminan alineados estructuralmente porque amplifican el teatro político. Cada gesto ridículo se transforma en clip, reacción, meme o transmisión en vivo. El contenido se recicla, se viraliza y se monetiza.
+
+---
+
+## El modelo de negocio del circo
+
+Este punto es central: gracias al teatro político, los influencers obtienen materia prima constante para producir contenido que luego se traduce en visualizaciones, seguidores y dinero en plataformas como YouTube. El político actúa; el influencer convierte esa actuación en capital simbólico y económico. **La estupidez no solo se tolera: se paga**. El escándalo rinde más que el análisis, y la burla genera más tráfico que la reflexión.
+
+<div class="my-8">
+  <img src="/images/article-economia-estupidez-2.jpg" alt="Influencers filmando el circo político" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El espectáculo político como negocio: todos ganan menos el ciudadano</p>
+</div>
+
+El intercambio es perfectamente funcional para todas las partes involucradas, excepto para una: **el ciudadano**. El político mantiene visibilidad permanente sin necesidad de explicar decisiones estructurales. El influencer sostiene su canal y su ingreso. Los medios tradicionales y digitales replican el ciclo, adaptando el mismo contenido a distintos formatos. La diferencia entre lo analógico y lo digital se diluye: ambos alimentan la misma lógica de distracción.
+
+---
+
+## El ciudadano como producto final
+
+El efecto acumulativo sobre quien consume este contenido es profundo. Este ecosistema produce un sujeto saturado, emocionalmente estimulado pero intelectualmente empobrecido. La persona que observa ya no analiza: reacciona. Ríe, se indigna, se burla. El cerebro, expuesto de forma constante a estímulos vacíos, termina "achicharrado", reducido a respuestas automáticas. **La política se consume como humor, y el pensamiento crítico se vuelve innecesario**.
+
+<div class="my-8">
+  <img src="/images/article-economia-estupidez-3.jpg" alt="Cerebro sobrecargado por redes sociales" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El cerebro colectivo: frito por la sobrecarga de contenido vacío</p>
+</div>
+
+Sostener que este fenómeno es accidental es ingenuo. La distracción siempre fue una herramienta de control, pero hoy opera de manera más sofisticada. No se censura, no se prohíbe pensar: **se ocupa la mente hasta que pensar resulte incómodo**. Mientras la atención esté capturada por el circo, el poder real opera fuera de escena, sin escrutinio ni resistencia.
+
+---
+
+## Conclusión: el circo no es un error, es el sistema
+
+No estamos frente a una degradación casual de la política ni ante una generación particularmente incompetente de dirigentes o comunicadores. **Estamos frente a un modelo perfectamente funcional**, donde la estupidez es producida, amplificada y monetizada. El político actúa, el influencer traduce, el medio reproduce y el ciudadano consume. Todos cumplen un rol, pero solo uno paga el costo cognitivo.
+
+La verdadera trampa no es creerle al político, sino creer que reírse de él equivale a pensar. **La burla no desarma el sistema; lo alimenta**. Cada visualización, cada reacción y cada compartido refuerza la maquinaria que convierte la política en entretenimiento y al ciudadano en espectador. El show no busca convencer: busca ocupar la mente.
+
+Mientras se discuten gestos, frases y papelones, las decisiones reales se toman lejos de las cámaras. Y mientras el cerebro colectivo se entrena para reaccionar en lugar de analizar, el poder se vuelve cada vez más opaco. **Un pueblo distraído no necesita ser reprimido: se gobierna solo**.
+
+El problema, entonces, no son solo los políticos ni los influencers de manera individual, sino la narrativa que los articula y el modelo económico que la sostiene. El día que la estupidez deje de ser rentable, el circo se desmonta. Hasta entonces, seguirán tratándonos como público y no como ciudadanos.
+
+Y queda flotando una pregunta incómoda: **¿nos están idiotizando… o simplemente aprendieron a vendernos exactamente lo que estamos dispuestos a mirar?**
+    `,
+    image: "/images/article-economia-estupidez.png",
+    category: "Política Nacional",
+    date: "2025-12-26",
+    author: "El Divergente"
+  },
+  {
     id: "estado-herramienta-transferencia-riqueza",
     title: "El Estado como herramienta de transferencia de riqueza: quién gana y quién pierde",
     excerpt: "La discusión política en Argentina suele reducirse a consignas simplistas. Este artículo propone una lectura estructural: no todos los votantes actúan desde la desinformación, sino que muchos lo hacen desde intereses materiales concretos.",
