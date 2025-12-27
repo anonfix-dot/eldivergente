@@ -66,6 +66,22 @@ El efecto acumulativo sobre quien consume este contenido es profundo. Este ecosi
   <p class="text-sm text-muted-foreground text-center mt-2 italic">El cerebro colectivo: frito por la sobrecarga de contenido vacío</p>
 </div>
 
+<div class="my-8 p-4 bg-card border border-border rounded-lg">
+  <p class="text-sm font-medium mb-3 text-primary">📺 El espectáculo en acción:</p>
+  <video 
+    autoplay 
+    loop 
+    muted 
+    playsinline
+    controls
+    class="w-full rounded-lg shadow-lg"
+  >
+    <source src="/video/economia-estupidez-video.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El ciclo del circo político en movimiento</p>
+</div>
+
 Sostener que este fenómeno es accidental es ingenuo. La distracción siempre fue una herramienta de control, pero hoy opera de manera más sofisticada. No se censura, no se prohíbe pensar: **se ocupa la mente hasta que pensar resulte incómodo**. Mientras la atención esté capturada por el circo, el poder real opera fuera de escena, sin escrutinio ni resistencia.
 
 ---
