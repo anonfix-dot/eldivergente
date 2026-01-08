@@ -13,6 +13,168 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "hipotesis-dos-bandos-geopolitica",
+    title: "La Hipótesis de los Dos Bandos Funcionales en la Geopolítica Contemporánea",
+    excerpt: "¿Cómo es posible que la 'resistencia' global a la agresión hegemónica se limite a la diplomacia y la retórica mediática? Este análisis explora la teoría de los dos bandos funcionales.",
+    content: `
+## 1.0 Introducción: La Paradoja del Conflicto Asimétrico
+
+La arquitectura del poder geopolítico contemporáneo se fundamenta en una paradoja estructural. Por un lado, observamos un actor hegemónico que ejerce la agresión militar de forma recurrente y casi sistemática a nivel global. Por otro lado, la oposición declarada a este poder —compuesta por potencias teóricamente capaces de un contrapeso efectivo— demuestra una inacción estratégica que contrasta radicalmente con su retórica hostil. Este desequilibrio entre la acción unilateral y la reacción pasiva define gran parte de la dinámica de poder contemporánea.
+
+Este informe se enfrenta a la pregunta central que se deriva de esta observación: **¿Cómo es posible que la "resistencia" global a la agresión hegemónica se limite a la diplomacia y la retórica mediática en una era de avanzada tecnología militar?** Para responder a esta cuestión, este documento tiene como objetivo analizar en profundidad la "teoría de los dos bandos funcionales", un marco explicativo que emerge de la lógica y los argumentos presentados en el texto de origen para dar sentido a esta aparente disonancia.
+
+Para comprender la estructura de este sistema, es imprescindible comenzar por analizar el patrón de comportamiento del actor dominante.
+
+<div class="my-8">
+  <img src="/images/article-dos-bandos-titiriteros.jpg" alt="Élites globales controlando el escenario mundial" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El teatro global: élites en las sombras orquestando el espectáculo</p>
+</div>
+
+---
+
+## 2.0 El Patrón del Hegemón: Agresión Unilateral como Norma Global
+
+Analizar el comportamiento del actor dominante es un requisito estratégico para comprender la dinámica global. Esta sección se centrará en caracterizar el rol de Estados Unidos tal como se describe en el texto fuente, identificando un patrón de acción que se ha convertido en una constante en el escenario internacional.
+
+El patrón atribuido a Estados Unidos es inequívoco y se define por la acción directa; es el actor que **"conjuga verbos de acción: invadir, atacar, saquear"**. Este modus operandi implica el despliegue sistemático de su maquinaria bélica en diversas latitudes del planeta, estableciendo la intervención militar como una herramienta normalizada de su política exterior.
+
+La justificación de estas acciones se presenta de manera dual. Oficialmente, las intervenciones se realizan bajo "banderas de libertad", un argumento ideológico destinado al consumo público y a la legitimación internacional. Sin embargo, según el análisis de la fuente, esta fachada a menudo oculta **"intereses económicos o estratégicos"** que constituyen la verdadera motivación detrás de la agresión. Este mecanismo ideológico funciona para legitimar la agresión en el plano internacional mientras se persiguen objetivos materiales no declarados, una disonancia clásica en el análisis crítico de la política exterior.
+
+La consecuencia fundamental de este comportamiento es la normalización de la guerra, pero bajo una condición asimétrica crucial: **el conflicto siempre ocurre "lejos, en el patio del vecino"**. El territorio nacional del agresor permanece inmune a las consecuencias directas de las hostilidades que inicia, consolidando una posición de impunidad estratégica.
+
+---
+
+## 3.0 La Discrepancia Crítica: Retórica de Oposición vs. Inacción Estratégica
+
+La credibilidad de cualquier sistema que aspire a ser multipolar reside en la capacidad de sus actores para ejercer una oposición real y efectiva al poder hegemónico. Sin embargo, al examinar la respuesta de los supuestos contrapesos a Washington, emerge una discrepancia crítica entre su discurso público y sus acciones concretas.
+
+<div class="my-8 overflow-x-auto">
+  <table class="w-full border-collapse border border-border text-sm">
+    <thead>
+      <tr class="bg-muted">
+        <th class="border border-border p-3 text-left font-semibold">Retórica Declarada</th>
+        <th class="border border-border p-3 text-left font-semibold">Realidad Fáctica</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-border p-3">Discursos incendiarios y amenazas apocalípticas en titulares</td>
+        <td class="border border-border p-3">Respuestas limitadas a comunicados de prensa y burocracia diplomática</td>
+      </tr>
+      <tr>
+        <td class="border border-border p-3">Condenas formales y enérgicas en foros internacionales como la ONU</td>
+        <td class="border border-border p-3">Nula represalia directa sobre el territorio del hegemón</td>
+      </tr>
+      <tr>
+        <td class="border border-border p-3">Proyección de una imagen de contrapeso estratégico</td>
+        <td class="border border-border p-3">Pasividad absoluta ante la destrucción sistemática de infraestructuras aliadas</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+La implicación estratégica de esta asimetría es profundamente **"inquietante"** y desafía la lógica convencional de las relaciones de poder entre potencias rivales. Esta disonancia sistémica exige una hipótesis que trascienda los modelos convencionales de rivalidad interestatal, obligando a considerar el conflicto no como un fracaso del sistema, sino como una de sus funciones.
+
+<div class="my-8">
+  <img src="/images/article-dos-bandos-infografia.png" alt="Infografía del conflicto geopolítico" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">Geopolítica: ¿Conflicto real o teatro global controlado?</p>
+</div>
+
+---
+
+## 4.0 La Hipótesis Central: El Conflicto como Maquinaria de Control Supranacional
+
+Frente a las contradicciones expuestas, la "Teoría de los Dos Bandos Funcionales" emerge no como una verdad categórica, sino como un modelo explicativo que surge lógicamente del análisis. Su valor radica en ser una hipótesis incómoda pero necesaria para dar sentido a un patrón de comportamiento que de otro modo parece irracional.
+
+### 1. Una Coreografía Controlada
+
+La premisa fundamental es que los conflictos bélicos contemporáneos no son fallos del sistema diplomático, sino **"eventos fríamente controlados"**. Desde esta perspectiva, los bandos aparentemente opuestos no son adversarios reales, sino **"engranajes de una misma maquinaria"**. Su oposición pública sería una ilusión escenificada, una coreografía macabra diseñada para un público global.
+
+### 2. Los Objetivos del Statu Quo
+
+Esta guerra perpetua, controlada y gestionada, sirve a propósitos que benefician a una estructura de poder subyacente:
+
+- **Sostener economías especulativas** dependientes del gasto militar y la inestabilidad geopolítica
+- **Legitimar la expansión de controles sociales** y aparatos de vigilancia sobre la población civil
+- **Perpetuar un estado de miedo e inseguridad** en las masas, inhibiendo así la disidencia
+
+### 3. La Gestión de una Élite Supranacional
+
+La teoría postula que la división global no es entre dos bandos ideológicos que luchan por la supremacía, sino que existe **"una sola élite supranacional gestionando el caos"**. Esta élite se beneficia directamente del conflicto perpetuo, mientras los líderes nacionales de los supuestos bandos opuestos intercambian una retórica hostil en público.
+
+<div class="my-8">
+  <img src="/images/article-dos-bandos-victimas.jpg" alt="Las víctimas del conflicto controlado" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">Los pueblos: víctimas de un conflicto que beneficia a otros</p>
+</div>
+
+---
+
+## 5.0 Conclusión: Las Víctimas del Teatro Global
+
+En síntesis, la evidencia de una agresión hegemónica unilateral, combinada con una oposición puramente retórica por parte de potencias rivales, confiere una notable credibilidad a la hipótesis de un conflicto coreografiado. La inacción estratégica frente a la agresión constante no puede explicarse satisfactoriamente mediante los modelos tradicionales de relaciones internacionales, lo que obliga a considerar marcos alternativos como el de los dos bandos funcionales.
+
+La **"tragedia"** fundamental que expone esta teoría no es el conflicto en sí mismo, sino su propósito. Las verdaderas víctimas de este sistema son **"los pueblos"**, quienes sufren las consecuencias tangibles de la guerra —los muertos, la pobreza y el sufrimiento— mientras las élites gestoras intercambian retórica hostil en público para luego brindar en cumbres internacionales.
+
+> **Los pueblos no están luchando por su soberanía. En realidad, están siendo "funcionales al negocio de la guerra", sirviendo sin saberlo a los intereses de una élite gestora que se beneficia del caos mientras consolida un statu quo global basado en el miedo y el control.**
+
+---
+
+<div class="my-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm font-medium mb-3 text-primary">📄 Documento completo para descargar:</p>
+  <div class="flex items-center gap-4 p-4 bg-muted/50 rounded-lg">
+    <div class="flex-shrink-0">
+      <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,19L12,15H9V10H15V15L13,19H10Z" />
+      </svg>
+    </div>
+    <div class="flex-1">
+      <p class="font-medium text-foreground">Geopolítica de la Impunidad: El Gran Teatro</p>
+      <p class="text-sm text-muted-foreground">Análisis completo en formato PDF</p>
+    </div>
+    <a href="/docs/geopolitica-impunidad-teatro.pdf" download class="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium">
+      Descargar PDF
+    </a>
+  </div>
+</div>
+
+---
+
+<div class="my-8 p-4 bg-card border border-border rounded-lg">
+  <p class="text-sm font-medium mb-3 text-primary">📺 Video: El teatro geopolítico en movimiento</p>
+  <video 
+    autoplay 
+    loop 
+    muted 
+    playsinline
+    controls
+    class="w-full rounded-lg shadow-lg"
+  >
+    <source src="/video/geopolitica-dos-bandos.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">El espectáculo de la geopolítica: retórica, conflicto y control</p>
+</div>
+
+---
+
+<div class="mt-8 p-6 bg-card border border-border rounded-lg">
+  <p class="text-sm text-muted-foreground mb-2">Análisis editorial de El Divergente</p>
+  <p class="text-sm text-muted-foreground">Contacto: <a href="mailto:eldivergente@proton.me" class="text-primary hover:underline">eldivergente@proton.me</a></p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#Geopolítica</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#DosBandos</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#TeatroGlobal</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ControlSocial</span>
+    <span class="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full">#ÉliteSupranacional</span>
+  </div>
+</div>
+    `,
+    image: "/images/article-dos-bandos-hero.png",
+    category: "Política",
+    date: "2026-01-08",
+    author: "El Divergente"
+  },
+  {
     id: "economia-de-la-estupidez",
     title: "Políticos, influencers y la economía de la estupidez",
     excerpt: "La política dejó de ser un espacio de ideas para convertirse en un espectáculo permanente. La estupidez no es un defecto del sistema: es su producto más rentable.",
