@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://eldivergente.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Articles List -->
+  <url>
+    <loc>https://eldivergente.com/articles</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- About -->
+  <url>
+    <loc>https://eldivergente.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact -->
+  <url>
+    <loc>https://eldivergente.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Donate -->
+  <url>
+    <loc>https://eldivergente.com/donate</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Articles - These should be dynamically generated in production -->
+  <url>
+    <loc>https://eldivergente.com/article/cronica-demolicion-planificada-argentina</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://eldivergente.com/images/article-demolicion-argentina.png</image:loc>
+      <image:title>Crónica de una Demolición Planificada</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://eldivergente.com/article/hipotesis-dos-bandos-geopolitica</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://eldivergente.com/images/article-dos-bandos-hero.png</image:loc>
+      <image:title>La Hipótesis de los Dos Bandos Funcionales</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://eldivergente.com/article/economia-estupidez</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://eldivergente.com/images/article-economia-estupidez.png</image:loc>
+      <image:title>Políticos, influencers y la economía de la estupidez</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://eldivergente.com/article/mito-milei</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://eldivergente.com/article/estructura-economica-argentina</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

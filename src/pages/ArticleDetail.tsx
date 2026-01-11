@@ -1,12 +1,12 @@
 import { useParams, Link } from "react-router-dom";
 import { Calendar, User, ArrowLeft } from "lucide-react";
-import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArticleCard } from "@/components/ArticleCard";
 import { SocialShare } from "@/components/SocialShare";
 import { Comments } from "@/components/Comments";
+import { SEOHead } from "@/components/SEOHead";
 import { articles } from "@/data/articles";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -29,36 +29,21 @@ const ArticleDetail = () => {
   }
 
   const relatedArticles = articles.filter((a) => a.id !== article.id && a.category === article.category).slice(0, 2);
-
-  const articleUrl = `${window.location.origin}/article/${article.id}`;
-  const articleImageUrl = `${window.location.origin}${article.image}`;
+  const articleUrl = `/article/${article.id}`;
 
   return (
     <div className="min-h-screen">
-      <Helmet>
-        <title>{article.title} - El Divergente</title>
-        <meta name="description" content={article.excerpt} />
-        
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={articleUrl} />
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.excerpt} />
-        <meta property="og:image" content={articleImageUrl} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="article:published_time" content={article.date} />
-        <meta property="article:author" content={article.author} />
-        <meta property="article:section" content={article.category} />
-        
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content={articleUrl} />
-        <meta name="twitter:title" content={article.title} />
-        <meta name="twitter:description" content={article.excerpt} />
-        <meta name="twitter:image" content={articleImageUrl} />
-        <meta name="twitter:site" content="@eldivergente" />
-      </Helmet>
+      <SEOHead
+        title={article.title}
+        description={article.excerpt}
+        image={article.image}
+        url={articleUrl}
+        type="article"
+        author={article.author}
+        publishedTime={article.date}
+        category={article.category}
+        keywords={[article.category, "análisis", "investigación"]}
+      />
       
       <Header />
 
@@ -89,13 +74,18 @@ const ArticleDetail = () => {
             </div>
             <div className="flex items-center gap-2">
               <Calendar size={14} className="sm:w-4 sm:h-4" />
-              <span>{article.date}</span>
+              <time dateTime={article.date}>{article.date}</time>
             </div>
           </div>
 
-          <div className="relative mb-12 rounded-lg overflow-hidden border border-primary/20 glow-box-blue">
-            <img src={article.image} alt={article.title} className="w-full h-auto" />
-          </div>
+          <figure className="relative mb-12 rounded-lg overflow-hidden border border-primary/20 glow-box-blue">
+            <img 
+              src={article.image} 
+              alt={article.title} 
+              className="w-full h-auto"
+              loading="eager"
+            />
+          </figure>
 
           <div className="prose prose-invert prose-sm sm:prose-base md:prose-lg max-w-none mb-8 sm:mb-12">
             <ReactMarkdown
@@ -115,21 +105,21 @@ const ArticleDetail = () => {
           </div>
 
           {/* Share Buttons */}
-          <SocialShare title={article.title} url={articleUrl} />
+          <SocialShare title={article.title} url={`${window.location.origin}${articleUrl}`} />
 
           {/* Comments Section */}
           <Comments articleId={article.id} />
 
           {/* Related Articles */}
           {relatedArticles.length > 0 && (
-            <div className="border-t border-primary/20 pt-12">
+            <aside className="border-t border-primary/20 pt-12">
               <h3 className="font-heading text-2xl font-bold mb-8 glow-violet">Artículos Relacionados</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {relatedArticles.map((relatedArticle) => (
                   <ArticleCard key={relatedArticle.id} {...relatedArticle} />
                 ))}
               </div>
-            </div>
+            </aside>
           )}
         </div>
       </article>
