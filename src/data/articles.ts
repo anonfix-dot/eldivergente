@@ -13,6 +13,89 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "cronica-demolicion-planificada-argentina",
+    title: "Crónica de una Demolición Planificada: La Ingeniería de la Decadencia Argentina",
+    excerpt: "¿Y si el caos que vivimos no es un accidente, sino el resultado exitoso de una ejecución estratégica de larga data? Argentina no colapsó; fue desmantelada.",
+    content: `
+## La Paradoja del "Error" Sistemático
+
+A menudo, al mirar la historia reciente de Argentina, caemos en la tentación de pensar que nuestra decadencia es fruto de la torpeza, la mala suerte o la incompetencia de turno. Nos decimos a nosotros mismos que "se equivocaron". Pero, **¿y si no hubo error? ¿Y si el caos que vivimos no es un accidente, sino el resultado exitoso de una ejecución estratégica de larga data?**
+
+Cuando se unen los puntos desde 1983 hasta la fecha, la imagen que devuelve el espejo es aterradora: no vemos una sucesión de fracasos, sino un plan sistémico de destrucción no solo económica, sino moral, cultural y espiritual. **Argentina no colapsó; fue desmantelada.**
+
+---
+
+## Fase 1: La Anestesia Democrática (1983 - 1989)
+
+Todo comenzó con una promesa que, vista a la distancia, funcionó como el sedante perfecto. Tras el horror de Malvinas y la oscuridad de la dictadura, la democracia llegó bajo el mantra de que **"con la democracia se come, se cura y se educa"**.
+
+Fue la etapa de la anestesia. El establishment y las élites globales necesitaban una transición ordenada hacia un modelo de colonia moderna. Nos convencieron de que el voto era la solución mágica a problemas estructurales, mientras tras bambalinas se sentaban las bases de una economía dependiente. **Aceptamos la mediocridad económica como el "costo" de la libertad civil**, sin saber que nos estaban preparando para el remate.
+
+---
+
+## Fase 2: El Desguace y la Ficción (1989 - 1999)
+
+<div class="my-8">
+  <img src="/images/article-demolicion-desguace.jpg" alt="El desguace del Estado argentino en los 90" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">Década del 90: La liquidación por cierre del patrimonio nacional</p>
+</div>
+
+Con la sociedad ya ablandada, llegó la etapa del espejismo. La década del 90 no fue un milagro económico; fue una **liquidación por cierre**. Vivimos una ficción de estabilidad y acceso al primer mundo, pero la factura la pagamos con las joyas de la abuela.
+
+Se vendieron las empresas estatales, el petróleo, el gas y nuestra soberanía estratégica. Nos hicieron creer que éramos ricos mientras quemábamos el capital nacional. Cuando se acabó lo que había para vender, la fiesta terminó abruptamente, dejándonos con un cascarón vacío y una sociedad adicta al consumo pero sin matriz productiva. 
+
+**El colapso del 2001 no fue una crisis; fue el despertar en una casa que ya no era nuestra.**
+
+---
+
+## Fase 3: La Ingeniería de la Pobreza y el Control (2001 - Presente)
+
+<div class="my-8">
+  <img src="/images/article-demolicion-pobreza.jpg" alt="Ingeniería de la pobreza en Argentina" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">La gestión de la miseria como herramienta de control social</p>
+</div>
+
+Aquí es donde el plan muestra su faceta más perversa. Tras el estallido, el sistema entendió que para perpetuarse necesitaba **gestionar la miseria, no erradicarla**.
+
+Los planes sociales no nacieron de la filantropía ni de la justicia social real. Fueron diseñados como **herramientas de contención y extorsión**.
+
+### Para el pobre:
+El plan es un grillete. Es la garantía de subsistencia a cambio de docilidad política. **"Si te rebelas, no comes"**. Se creó un ejército de dependientes estatales, desactivando la posibilidad de una revolución real, porque el hambre no planifica, solo obedece.
+
+### Para la clase media:
+El control fue a través del miedo. El trabajador promedio, asustado por la marginalidad creciente, se aferra a su status quo. No protesta porque tiene mucho que perder (su empleo, su pequeña estabilidad). Las empresas, entrelazadas con los intereses políticos, funcionan como capataces de este silencio.
+
+**El resultado es una sociedad bloqueada: los de abajo no pueden rebelarse y los del medio no quieren arriesgarse.**
+
+---
+
+## El Golpe Final: La Corrupción como Identidad Cultural
+
+<div class="my-8">
+  <img src="/images/article-demolicion-corrupcion.jpg" alt="La corrupción como sistema cultural" class="w-full rounded-lg shadow-lg" />
+  <p class="text-sm text-muted-foreground text-center mt-2 italic">La brújula ética rota: cuando la corrupción se normaliza</p>
+</div>
+
+Lo más doloroso de este proceso no es la pobreza material, sino la **miseria moral**. El éxito definitivo de este plan de destrucción fue lograr que el argentino promedio perdiera su brújula ética.
+
+Hoy, la sociedad argentina no es resiliente; es **conformista y, peor aún, cómplice**. Hemos llegado al punto de la moralidad selectiva. Ya no nos indigna la corrupción per se; solo nos molesta la del bando contrario. 
+
+**Si el político de mi simpatía roba, lo justifico, lo minimizo e incluso, secretamente, lo aplaudo como una "avivada". Si lo hace el rival, exigimos cárcel.** Hemos normalizado el delito como herramienta de gestión.
+
+---
+
+## Conclusión: El Espejo Roto
+
+La realidad es dura, pero necesaria de asumir: **nos han quitado la capacidad de reacción**. Han creado un país donde la pobreza es una industria y la corrupción una cultura aceptada.
+
+Este no es un país que "no arranca"; es un país que **fue frenado intencionalmente**. Y la única forma de volver a ponerlo en marcha no es solo cambiando de gobierno, sino rompiendo este pacto implícito de mediocridad que, lamentablemente, hemos aceptado firmar todos los días.
+    `,
+    image: "/images/article-demolicion-argentina.png",
+    category: "Política Nacional",
+    date: "2026-01-11",
+    author: "El Divergente"
+  },
+  {
     id: "hipotesis-dos-bandos-geopolitica",
     title: "La Hipótesis de los Dos Bandos Funcionales en la Geopolítica Contemporánea",
     excerpt: "¿Cómo es posible que la 'resistencia' global a la agresión hegemónica se limite a la diplomacia y la retórica mediática? Este análisis explora la teoría de los dos bandos funcionales.",
