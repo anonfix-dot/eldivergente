@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArticleCard } from "@/components/ArticleCard";
 import { RTPlayer } from "@/components/RTPlayer";
+import { SEOHead } from "@/components/SEOHead";
 import { articles } from "@/data/articles";
 import heroBackground from "@/assets/hero-background.jpg";
 
@@ -29,6 +30,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Análisis Independiente de Geopolítica y Política"
+        description="Análisis crítico e independiente de geopolítica global, política nacional argentina y los hilos ocultos que mueven el mundo. Investigación alternativa con perspectiva divergente."
+        url="/"
+        type="website"
+        keywords={["geopolítica", "política argentina", "análisis político", "investigación independiente"]}
+      />
       <Header />
 
       {/* Hero Section */}

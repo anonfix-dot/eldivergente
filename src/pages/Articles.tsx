@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArticleCard } from "@/components/ArticleCard";
 import { Newsletter } from "@/components/Newsletter";
+import { SEOHead } from "@/components/SEOHead";
 import { articles, categories } from "@/data/articles";
 import { Button } from "@/components/ui/button";
 
@@ -16,6 +17,13 @@ const Articles = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Artículos - Análisis Político y Geopolítico"
+        description="Explora nuestros artículos de análisis profundo sobre geopolítica, política argentina, economía y más. Investigación independiente y perspectiva crítica."
+        url="/articles"
+        type="website"
+        keywords={["artículos", "análisis político", "geopolítica", "política argentina"]}
+      />
       <Header />
 
       {/* Hero */}
