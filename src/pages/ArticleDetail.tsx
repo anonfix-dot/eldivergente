@@ -10,6 +10,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { articles } from "@/data/articles";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
+import rehypeSanitize from "rehype-sanitize";
 
 const ArticleDetail = () => {
   const { id } = useParams();
@@ -89,7 +90,7 @@ const ArticleDetail = () => {
 
           <div className="prose prose-invert prose-sm sm:prose-base md:prose-lg max-w-none mb-8 sm:mb-12">
             <ReactMarkdown
-              rehypePlugins={[rehypeRaw]}
+              rehypePlugins={[rehypeRaw, rehypeSanitize]}
               components={{
                 h2: ({ children }) => (
                   <h2 className="font-heading text-xl sm:text-2xl md:text-3xl font-bold mt-8 sm:mt-12 mb-4 sm:mb-6 text-primary glow-blue">{children}</h2>
